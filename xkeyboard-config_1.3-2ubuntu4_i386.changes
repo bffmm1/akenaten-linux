@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 17 Sep 2008 12:27:15 +0300
+Source: xkeyboard-config
+Binary: xkb-data
+Architecture: source all
+Version: 1.3-2ubuntu4
+Distribution: intrepid
+Urgency: low
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Timo Aaltonen <tepsipakki@ubuntu.com>
+Description: 
+ xkb-data   - X Keyboard Extension (XKB) configuration data
+Changes: 
+ xkeyboard-config (1.3-2ubuntu4) intrepid; urgency=low
+ .
+   * Update 100_abnt2_jp106.diff, s/AB11/I211/ from symbols/inet.
+Checksums-Sha1: 
+ 4fd0284f154ee1a8fde6831c8e1c9dac7bbaa384 1228 xkeyboard-config_1.3-2ubuntu4.dsc
+ d63793d78338e51d03db6c7d71c538523f3bf989 180341 xkeyboard-config_1.3-2ubuntu4.diff.gz
+ 339734a65aead703b8ae04cb61be149a7de8c148 681320 xkb-data_1.3-2ubuntu4_all.deb
+Checksums-Sha256: 
+ 6c4fd632947d9b66c50ed6ca7f46c8e21a0f30f62eade2f4655190a02c92a4e6 1228 xkeyboard-config_1.3-2ubuntu4.dsc
+ 36c8dc7402afbfbae3532983b4b3b6b2812da5a634829a26c2883d0fd52a383e 180341 xkeyboard-config_1.3-2ubuntu4.diff.gz
+ a3de0eb8ead72e41212ecbea4f65c919b10961945b4232c788e44d28fcec5aad 681320 xkb-data_1.3-2ubuntu4_all.deb
+Files: 
+ fbbeac591550a23c82b00f35a1b44ab4 1228 x11 extra xkeyboard-config_1.3-2ubuntu4.dsc
+ e956547b889d58bce09e1c8fe89f042a 180341 x11 extra xkeyboard-config_1.3-2ubuntu4.diff.gz
+ 1d16b9c0765ba583e7c68010e5afcc27 681320 x11 extra xkb-data_1.3-2ubuntu4_all.deb
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

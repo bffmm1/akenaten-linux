@@ -1,0 +1,12 @@
+Source: usplash-theme-clubdistro
+Section: unknown
+Priority: extra
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: usplash-theme-clubdistro
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: usplash-theme-clubdistro
+ usplash theme clubdistro

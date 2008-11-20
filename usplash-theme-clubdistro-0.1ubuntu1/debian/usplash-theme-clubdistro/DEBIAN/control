@@ -1,0 +1,10 @@
+Package: usplash-theme-clubdistro
+Version: 0.1ubuntu1-1
+Architecture: i386
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Installed-Size: 2644
+Depends: libc6 (>= 2.1.3)
+Section: unknown
+Priority: extra
+Description: usplash-theme-clubdistro
+ usplash theme clubdistro

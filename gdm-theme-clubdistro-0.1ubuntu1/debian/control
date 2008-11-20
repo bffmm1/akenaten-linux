@@ -1,0 +1,12 @@
+Source: gdm-theme-clubdistro
+Section: X11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: gdm-theme-clubdistro
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: human dark gdm-theme 
+   GDM Humhan Dark Theme

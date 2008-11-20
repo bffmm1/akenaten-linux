@@ -1,0 +1,13 @@
+Source: clubdistro
+Section: unknown
+Priority: extra
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.0
+
+Package: clubdistro
+Architecture: any
+Depends: gdm-theme-clubdistro, usplash-theme-clubdistro, clubdistro-wallpapers, language-support-th, clubdistro-thai-settings
+Description: clubdistro main package
+ clubdistro meta package
+

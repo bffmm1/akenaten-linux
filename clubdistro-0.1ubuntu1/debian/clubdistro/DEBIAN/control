@@ -1,0 +1,10 @@
+Package: clubdistro
+Version: 0.1ubuntu1-2
+Architecture: i386
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Installed-Size: 44
+Depends: gdm-theme-clubdistro, usplash-theme-clubdistro, clubdistro-wallpapers, language-support-th, clubdistro-thai-settings
+Section: unknown
+Priority: extra
+Description: clubdistro main package
+ clubdistro meta package

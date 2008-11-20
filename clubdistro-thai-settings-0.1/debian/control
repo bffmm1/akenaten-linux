@@ -1,0 +1,12 @@
+Source: clubdistro-thai-settings
+Section: x11
+Priority: extra
+Maintainer: Anuchit Chalothorn <anuchit@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.3
+
+Package: clubdistro-thai-settings
+Architecture: any
+Depends: 
+Description: Thai settings
+ Automatically configure GNOME to use thai.
