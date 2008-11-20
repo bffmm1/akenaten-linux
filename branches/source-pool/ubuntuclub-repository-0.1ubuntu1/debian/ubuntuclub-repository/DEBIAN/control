@@ -1,0 +1,9 @@
+Package: ubuntuclub-repository
+Version: 0.1ubuntu1-1
+Architecture: i386
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Installed-Size: 60
+Section: unknown
+Priority: extra
+Description: custom repository from ubuntu club
+ custom ubuntu repository from ubuntu club - Ubuntu Community in Thailand

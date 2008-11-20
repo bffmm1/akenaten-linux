@@ -1,0 +1,19 @@
+This package was debianized by Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx> on
+Sun, 11 May 2008 17:16:40 +0700.
+
+It was downloaded from https://blueprints.launchpad.net/clubuntu/+spec/clubuntu
+
+Upstream Authors: 
+
+    Ubuntuclub team <ubuntuclubteam@gmail.com>
+
+Copyright: 
+
+    Copyright (C) 2008 Ubuntuclub.com
+
+License:
+
+    GPL
+
+The Debian packaging is (C) 2008, Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

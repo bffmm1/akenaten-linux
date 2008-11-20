@@ -1,0 +1,14 @@
+Source: clubdistro-wallpapers
+Section: x11
+Priority: optional
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Build-Depends: debhelper (>= 5), cdbs, python-dev (>= 2.4), python-distutils-extra, python-central (>= 0.5), xsltproc
+XS-Python-Version: all
+Standards-Version: 3.7.2
+
+Package: clubdistro-wallpapers
+Architecture: all
+Section: x11
+Description: Club Distro Wallpapers
+ The default Wallpapers for Club Disto. At the moment the package contains:
+  * Clubdistro Wallpaper

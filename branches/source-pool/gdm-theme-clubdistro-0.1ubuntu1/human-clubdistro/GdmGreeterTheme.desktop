@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Greeter=Human.xml
+Name=Human-Clubdistro
+Description=Ubuntu Default Welcome Theme
+Author=Jeff Waugh, Mark Shuttleworth, Jozef Mak, Jonathan Austin, Frank Schoep
+Copyright=(c) 2004-2006 Canonical Ltd.
+Screenshot=screenshot.png

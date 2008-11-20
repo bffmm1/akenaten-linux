@@ -1,0 +1,43 @@
+#!/bin/bash
+cat << EOF > /tmp/gconf.xml
+<gconfentryfile>
+  <entrylist base="/desktop/gnome/peripherals/keyboard/kbd">
+    <entry>
+      <key>layouts</key>
+      <schema_key>/schemas/desktop/gnome/peripherals/keyboard/kbd/layouts</schema_key>
+      <value>
+        <list type="string">
+            <value>
+              <string>us</string>
+            </value>
+            <value>
+              <string>th</string>
+            </value>
+        </list>
+      </value>
+    </entry>
+    <entry>
+      <key>options</key>
+      <schema_key>/schemas/desktop/gnome/peripherals/keyboard/kbd/options</schema_key>
+      <value>
+        <list type="string">
+            <value>
+              <string>grp	grp:alt_shift_toggle</string>
+            </value>
+            <value>
+              <string>grp_led	grp_led:scroll</string>
+            </value>
+        </list>
+      </value>
+    </entry>
+  </entrylist>
+</gconfentryfile>
+EOF
+if [ "$SUDO_USER" ]; then
+	echo Installing gconf tree for $SUDO_USER
+	sudo -u $SUDO_USER gconftool-2 --load /tmp/gconf.xml
+else
+	echo Installing gconf tree for `whoami`
+	gconftool-2 --load /tmp/gconf.xml
+fi
+rm /tmp/gconf.xml

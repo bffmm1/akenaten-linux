@@ -1,0 +1,9 @@
+Package: clubdistro-thai-settings
+Version: 0.1ubuntu1
+Architecture: i386
+Maintainer: Anuchit Chalothorn <anuchit@gmail.com>
+Installed-Size: 36
+Section: x11
+Priority: extra
+Description: Thai settings
+ Automatically configure GNOME to use thai.

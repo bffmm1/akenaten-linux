@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <name>Build up from Ubuntu</name>
+    <filename>/usr/share/backgrounds/clubdistro-ubuntu.png</filename>
+    <options>zoom</options>
+    <pcolor>#dab082</pcolor>
+    <scolor>#dab082</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
+    <name>Club Distro Unite</name>
+    <filename>/usr/share/backgrounds/clubdistro-skin.png</filename>
+    <options>zoom</options>
+    <pcolor>#5b2e0f</pcolor>
+    <scolor>#5b2e0f</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+</wallpapers>
