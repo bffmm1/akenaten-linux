@@ -1,1 +1,0 @@
-This is an Ubuntu Goo Live CD base on Ubuntu 8.04 (Hardy Heron). For the default live system, enter "live".

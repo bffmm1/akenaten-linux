@@ -1,0 +1,201 @@
+Package: laobuntu-laos-settings
+Priority: extra
+Section: x11
+Installed-Size: 36
+Maintainer: Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx>
+Architecture: i386
+Version: 0.1-1
+Filename: pool/main/l/laobuntu-laos-settings_0.1-1_i386.deb
+Size: 1700
+MD5sum: 5e1239cd62f515a486a6a8746905eb86
+SHA1: 63cb33b723fc1e537ff41c60472df77e6d799d63
+SHA256: d545c10f3cb0d37c4ef93d5dda57bb870b987f738a5451a908aba011957c9563
+Description: Laos settings
+ Automatically configure GNOME to use Laos.
+
+Package: xkb-data-grave
+Priority: extra
+Section: other
+Installed-Size: 41.2
+Maintainer: Somjate Nimitphun<mailjune@gmail.com>
+Architecture: i386
+Version: 0.0.0.1
+Filename: pool/main/x/xkb-data-hacked_0.8-7mrchoke1_all.deb
+Size: 42190
+MD5sum: d3e07cb0405e6a7d6a3123710d5b7c47
+SHA1: 9e38af622151073147b43f8dae4f47c30b63f6d4
+SHA256: 13623be4e7ae73d33796630990a55975ec443a1aa9fe3508f7aa5d8104af38e9
+Description: Grave Switches layout with X11 keyboard system(XKB).
+ .
+ This package Develop for Ubuntu 8.10 (Intrepid Ibex).
+ 
+
+Package: mp3unicode
+Priority: extra
+Section: sound
+Installed-Size: 92
+Maintainer: Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx>
+Architecture: i386
+Version: 1.2-1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1-21), libstdc++6 (>= 4.1.1-21), libtag1c2a (>= 1.4)
+Filename: pool/main/m/mp3unicode_1.2-1_i386.deb
+Size: 21512
+MD5sum: ee056dd47729500034196808343b3dd9
+SHA1: 59b1f7eae4a8567f787959a0cd1e51ce0f8af6b1
+SHA256: 2d5d11625d06229e18c19e39a191e0d4be205e531e14c2e1b9be1837394ab157
+Description: Convert IDv3 tags to Various encoding
+ Including unicode, cp874
+
+Package: ttf-f0nt-thai
+Priority: extra
+Section: x11
+Installed-Size: 1180
+Maintainer: Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx>
+Architecture: i386
+Version: 0.1-1
+Filename: pool/main/t/ttf-f0nt-thai_0.1-1_i386.deb
+Size: 591516
+MD5sum: 3c8b9e18367f191a4aa9c7ffaecd8b62
+SHA1: 7d490f8a49e6b2aadafc91ef548ef751e59ac27a
+SHA256: bb74dddf00c14763cb0a25d927fdee25debba5ba4a390ab580149c33718841cb
+Description: Fonts from www.f0nt.com
+ Various Thai fonts from www.f0nt.com in many styles.
+
+Package: ttf-f0nts-thai
+Priority: extra
+Section: x11
+Installed-Size: 7032
+Maintainer: Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx>
+Architecture: i386
+Version: 0.5-1ubuntu1
+Filename: pool/main/t/ttf-f0nts-thai_0.5-1ubuntu1_i386.deb
+Size: 3166882
+MD5sum: 161efabe1898db35f2589a15cd8a5822
+SHA1: 4115fe8b164893a80848cabd44dcc00679fc504e
+SHA256: 2ebce5f3b56d061b02f0ed0bfa8e55af6b003ad376ec0217b7c2a87f2e00a035
+Description: Thai fonts from SIPA and DIP
+ Fonts from f0nt.com is goin to added in next versions.
+
+Package: ttf-thaitux
+Priority: extra
+Section: x11
+Installed-Size: 3860
+Maintainer: Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx>
+Architecture: i386
+Version: 0.5-1ubuntu2
+Filename: pool/main/t/ttf-thaitux_0.5-1ubuntu2_i386.deb
+Size: 2141016
+MD5sum: 8cb907701235bd25d65a83471a165e75
+SHA1: 5b603525952d354679f6875cb8ee2fdd4b10396a
+SHA256: 3077412358e1ea93ca00e7e0a112f7612986284a2d8aa7af58e741e01d2c836e
+Description: Thai fonts from ThaiTux.info
+ Varios font from ThaiTux.info
+
+Package: ttf-sipa-dip-thai
+Priority: extra
+Section: x11
+Installed-Size: 48
+Maintainer: Manatsawin Hanmongkolchai <whs@whsgroup.ath.cx>
+Architecture: i386
+Version: 0.5-1ubuntu2
+Filename: pool/main/t/ttf-sipa-dip-thai_0.5-1ubuntu2_i386.deb
+Size: 5214
+MD5sum: 06c6844b72379430532ee0d24117b6a8
+SHA1: e57d56aaa5715bb61ef9d6f25580d2bbd258567b
+SHA256: fb2a94a367e709bb61d7d19de0816430dcfb3aba186a90d957de3128d9736e6d
+Description: Thai fonts from SIPA and DIP
+ Fonts from f0nt.com is goin to added in next versions.
+
+Package: gdm-theme-clubdistro
+Priority: extra
+Section: X11
+Installed-Size: 1828
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Architecture: i386
+Version: 0.1ubuntu1-1
+Filename: pool/main/g/gdm-theme-clubdistro_0.1ubuntu1-1_i386.deb
+Size: 1695696
+MD5sum: 56059dc79008f8c89d6e4feb91ab203f
+SHA1: 68f5d6d3e4e68ceb8b14d70d72a87dbf12c554b9
+SHA256: 831e2f03316042f173e32e7a23d4d94342669b72e7cc8d97b7fbce40412d6481
+Description: human dark gdm-theme
+   GDM Humhan Dark Theme
+
+Package: ubuntuclub-repository
+Priority: extra
+Section: unknown
+Installed-Size: 60
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Architecture: i386
+Version: 0.1ubuntu1-1
+Filename: pool/main/u/ubuntuclub-repository_0.1ubuntu1-1_i386.deb
+Size: 2340
+MD5sum: d5fd952ce353e98af073a7270895dce7
+SHA1: 46393cbe5b7407d6737686f2c25746a0788842b3
+SHA256: 80d9074d2fb6931c54302aae90dd1a13c04fdd7790980fe130ad1657ea9418df
+Description: custom repository from ubuntu club
+ custom ubuntu repository from ubuntu club - Ubuntu Community in Thailand
+
+Package: usplash-theme-clubdistro
+Priority: extra
+Section: unknown
+Installed-Size: 2644
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Architecture: i386
+Version: 0.1ubuntu1-1
+Depends: libc6 (>= 2.1.3)
+Filename: pool/main/u/usplash-theme-clubdistro_0.1ubuntu1-1_i386.deb
+Size: 296454
+MD5sum: 52a1eceb772f9b9e45744a66abda4d1f
+SHA1: 984c2432a29c6942c5a7ac869736527d40dbabbe
+SHA256: bea7ca85939b85f5397c8341fa15c03f57be73ea1f9ff09fa206ca6174e7185e
+Description: usplash-theme-clubdistro
+ usplash theme clubdistro
+
+Package: clubdistro-wallpapers
+Priority: optional
+Section: x11
+Installed-Size: 832
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Architecture: all
+Version: 0.20
+Filename: pool/main/c/clubdistro-wallpapers_0.20_all.deb
+Size: 696158
+MD5sum: 5cd306054be57bc5822df9e05d8dfec8
+SHA1: aaaf91680ea43bdfe58f5623746e18f810b20e5a
+SHA256: 3797b1e9fb00ff32741095d7d168917c14af4004bd4810d6876bcb696e542a7d
+Description: Club Distro Wallpapers
+ The default Wallpapers for Club Disto. At the moment the package contains:
+  * Clubdistro Wallpaper
+
+Package: clubdistro
+Priority: extra
+Section: unknown
+Installed-Size: 44
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Architecture: i386
+Version: 0.1ubuntu1-2
+Depends: gdm-theme-clubdistro, usplash-theme-clubdistro, clubdistro-wallpapers, language-support-th, clubdistro-thai-settings
+Filename: pool/main/c/clubdistro_0.1ubuntu1-2_i386.deb
+Size: 1664
+MD5sum: c51601fc8c979739be7966e9df092427
+SHA1: 85b0832e8fc0b3022f6abed71ab16e290443c4f3
+SHA256: 22a742d2b7764d33e52d4b40541707db2987db12ac396188c6762cb327e5be06
+Description: clubdistro main package
+ clubdistro meta package
+
+Package: clubdistro-thai-settings
+Priority: extra
+Section: x11
+Installed-Size: 36
+Maintainer: Anuchit Chalothorn <anuchit@gmail.com>
+Architecture: i386
+Version: 0.1ubuntu1
+Filename: pool/main/c/clubdistro-thai-settings_0.1ubuntu1_i386.deb
+Size: 1774
+MD5sum: d735b9f082e6712f5d6d8199f0b75749
+SHA1: ad1a01e7c4e7f96a6e6b06049d86754a91fd303d
+SHA256: c5dc09b424b8a78a2dcf8bab1f80ee27df875f072267cf49f25eb6cdec077588
+Description: Thai settings
+ Automatically configure GNOME to use thai.
+

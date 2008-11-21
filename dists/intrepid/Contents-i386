@@ -1,0 +1,181 @@
+etc/apt/sources.list.ubuntuclub				    unknown/ubuntuclub-repository
+etc/gdm/gdm.conf-custom					    X11/gdm-theme-clubdistro
+tmp/xkb-data-grave/etc/X11/xkb/base.xml			    other/xkb-data-grave
+tmp/xkb-data-grave/usr/share/X11/xkb/rules/base		    other/xkb-data-grave
+tmp/xkb-data-grave/usr/share/X11/xkb/rules/base.lst	    other/xkb-data-grave
+tmp/xkb-data-grave/usr/share/X11/xkb/rules/evdev	    other/xkb-data-grave
+tmp/xkb-data-grave/usr/share/X11/xkb/rules/evdev.lst	    other/xkb-data-grave
+tmp/xkb-data-grave/usr/share/X11/xkb/rules/evdev.xml	    other/xkb-data-grave
+tmp/xkb-data-grave/usr/share/X11/xkb/symbols/group	    other/xkb-data-grave
+usr/bin/mp3unicode					    sound/mp3unicode
+usr/lib/python2.5/site-packages/clubdistro_wallpapers-0.20.egg-info x11/clubdistro-wallpapers
+usr/lib/usplash/usplash-theme-ubuntu.so			    unknown/usplash-theme-clubdistro
+usr/share/backgrounds/clubdistro-skin.png		    x11/clubdistro-wallpapers
+usr/share/backgrounds/clubdistro-ubuntu.png		    x11/clubdistro-wallpapers
+usr/share/doc/clubdistro-thai-settings/changelog.gz	    x11/clubdistro-thai-settings
+usr/share/doc/clubdistro-thai-settings/copyright	    x11/clubdistro-thai-settings
+usr/share/doc/clubdistro-wallpapers/AUTHORS		    x11/clubdistro-wallpapers
+usr/share/doc/clubdistro-wallpapers/changelog.gz	    x11/clubdistro-wallpapers
+usr/share/doc/clubdistro-wallpapers/copyright		    x11/clubdistro-wallpapers
+usr/share/doc/clubdistro/README.Debian			    unknown/clubdistro
+usr/share/doc/clubdistro/changelog.Debian.gz		    unknown/clubdistro
+usr/share/doc/clubdistro/copyright			    unknown/clubdistro
+usr/share/doc/gdm-theme-clubdistro/README.Debian	    X11/gdm-theme-clubdistro
+usr/share/doc/gdm-theme-clubdistro/changelog.Debian.gz	    X11/gdm-theme-clubdistro
+usr/share/doc/gdm-theme-clubdistro/copyright		    X11/gdm-theme-clubdistro
+usr/share/doc/laobuntu-laos-settings/changelog.Debian.gz    x11/laobuntu-laos-settings
+usr/share/doc/laobuntu-laos-settings/copyright		    x11/laobuntu-laos-settings
+usr/share/doc/mp3unicode/COPYING.gz			    sound/mp3unicode
+usr/share/doc/mp3unicode/ChangeLog			    sound/mp3unicode
+usr/share/doc/mp3unicode/README				    sound/mp3unicode
+usr/share/doc/mp3unicode/changelog.Debian.gz		    sound/mp3unicode
+usr/share/doc/mp3unicode/changelog.gz			    sound/mp3unicode
+usr/share/doc/mp3unicode/copyright			    sound/mp3unicode
+usr/share/doc/ttf-f0nt-thai/SP_Thunderfox.txt		    x11/ttf-f0nt-thai
+usr/share/doc/ttf-f0nt-thai/TP_Tankhun.txt		    x11/ttf-f0nt-thai
+usr/share/doc/ttf-f0nt-thai/changelog.Debian.gz		    x11/ttf-f0nt-thai
+usr/share/doc/ttf-f0nt-thai/copyright			    x11/ttf-f0nt-thai
+usr/share/doc/ttf-f0nts-thai/changelog.Debian.gz	    x11/ttf-f0nts-thai
+usr/share/doc/ttf-f0nts-thai/copyright			    x11/ttf-f0nts-thai
+usr/share/doc/ttf-f0nts-thai/license.txt		    x11/ttf-f0nts-thai
+usr/share/doc/ttf-sipa-dip-thai/changelog.Debian.gz	    x11/ttf-sipa-dip-thai
+usr/share/doc/ttf-sipa-dip-thai/copyright		    x11/ttf-sipa-dip-thai
+usr/share/doc/ttf-thaitux/changelog.Debian.gz		    x11/ttf-thaitux
+usr/share/doc/ttf-thaitux/copyright			    x11/ttf-thaitux
+usr/share/doc/ubuntuclub-repository/README.Debian	    unknown/ubuntuclub-repository
+usr/share/doc/ubuntuclub-repository/changelog.Debian.gz	    unknown/ubuntuclub-repository
+usr/share/doc/ubuntuclub-repository/copyright		    unknown/ubuntuclub-repository
+usr/share/doc/usplash-theme-clubdistro/README.Debian	    unknown/usplash-theme-clubdistro
+usr/share/doc/usplash-theme-clubdistro/changelog.Debian.gz  unknown/usplash-theme-clubdistro
+usr/share/doc/usplash-theme-clubdistro/copyright	    unknown/usplash-theme-clubdistro
+usr/share/fonts/truetype/f0nt/2005_iannnnnGMO.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/LayijiMahaniyomV103.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/Pspimpdeed.ttf		    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/PspimpdeedII.ttf		    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/PspimpdeedIII.ttf		    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/SP-ThunderFox-Bold.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/SP-ThunderFox.ttf		    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/TP Tankhun Bold Italic.ttf    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/TP Tankhun Bold.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/TP Tankhun Italic.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/TP Tankhun.ttf		    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/ps_pimpdeediiM.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/f0nt/pspimpdeedIISM.ttf	    x11/ttf-f0nt-thai
+usr/share/fonts/truetype/sipadip/ArunSer.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/ArunSerB.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundina.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinab.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinabo.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinamobd.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinamobi.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinamoit.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinamono.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/Arundinao.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Baijam Bold Italic.ttf  x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Baijam Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Baijam Italic.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Baijam.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Chakra Petch Bold Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Chakra Petch Bold.ttf   x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Chakra Petch Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Chakra Petch.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Charm of AU.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Charmonman Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Charmonman.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Fahkwang Bold Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Fahkwang Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Fahkwang Italic.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Fahkwang.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH K2D July8 Bold Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH K2D July8 Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH K2D July8 Italic.ttf    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH K2D July8.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH KoHo Bold Italic.ttf    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH KoHo Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH KoHo Italic.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH KoHo.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Kodchasal Bold Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Kodchasal Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Kodchasal Italic.ttf    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Kodchasal.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Krub Bold Italic.ttf    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Krub Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Krub Italic.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Krub.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Mali Grade6 Bold Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Mali Grade6 Bold.ttf    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Mali Grade6 Italic.ttf  x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Mali Grade6.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Niramit AS Bold Italic.ttf x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Niramit AS Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Niramit AS Italic.ttf   x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Niramit AS.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Srisakdi Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/TH Srisakdi.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/THSarabun Bold.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/THSarabun BoldItalic.ttf   x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/THSarabun Italic.ttf	    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/sipadip/THSarabun.ttf		    x11/ttf-f0nts-thai
+usr/share/fonts/truetype/thaitux/Angsima-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Angsima-BoldOblique.ttf    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Angsima-Oblique.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Angsima.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Bromlila-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Bromlila-BoldItalic.ttf    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Bromlila-Italic.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Bromlila.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Corada-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Corada-BoldItalic.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Corada-Italic.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Corada.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/DejaVuSansThai-Bold.ttf    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/DejaVuSansThai.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/DejaVuSerifThai-Bold.ttf   x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/DejaVuSerifThai.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Garudatas.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Gentini.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Lomaputta-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Lomaputta-BoldOblique.ttf  x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Lomaputta-Oblique.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Lomaputta.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Lomaputta2.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Noraputta-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Noraputta.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Norasitas.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Pantaka-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Pantaka-BoldOblique.ttf    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Pantaka-Oblique.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Pantaka.ttf		    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Umpush-Bold.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Umpush-BoldOblique.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Umpush-Light.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Umpush-LightOblique.ttf    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Umpush-Oblique.ttf	    x11/ttf-thaitux
+usr/share/fonts/truetype/thaitux/Umpush.ttf		    x11/ttf-thaitux
+usr/share/gconf/defaults/16_clubdistro-wallpapers	    x11/clubdistro-wallpapers
+usr/share/gdm/themes/human-clubdistro/GdmGreeterTheme.desktop X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/Human.xml		    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/background.orig.png   X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/background.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/bottom_bar.svg	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/boundingbox.svg	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/gtk-2.0/gtkrc	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-language-active.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-language-prelight.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-language.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-reboot-active.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-reboot-prelight.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-reboot.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-session-active.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-session-prelight.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-session.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-shutdown-active.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-shutdown-prelight.png X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/icon-shutdown.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/screenshot.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/ubuntu.png	    X11/gdm-theme-clubdistro
+usr/share/gdm/themes/human-clubdistro/userentry.svg	    X11/gdm-theme-clubdistro
+usr/share/gnome-background-properties/clubdistro-wallpapers.xml x11/clubdistro-wallpapers
+usr/share/locale/fr/LC_MESSAGES/clubdistro-wallpapers.mo    x11/clubdistro-wallpapers
+usr/share/locale/sk/LC_MESSAGES/clubdistro-wallpapers.mo    x11/clubdistro-wallpapers
+usr/share/man/man1/mp3unicode.1.gz			    sound/mp3unicode

@@ -1,0 +1,13 @@
+clubdistro_0.1ubuntu1-2_i386.deb
+clubdistro-thai-settings_0.1ubuntu1_i386.deb
+clubdistro-wallpapers_0.20_all.deb
+gdm-theme-clubdistro_0.1ubuntu1-1_i386.deb
+laobuntu-laos-settings_0.1-1_i386.deb
+mp3unicode_1.2-1_i386.deb
+ttf-f0nts-thai_0.5-1ubuntu1_i386.deb
+ttf-f0nt-thai_0.1-1_i386.deb
+ttf-sipa-dip-thai_0.5-1ubuntu2_i386.deb
+ttf-thaitux_0.5-1ubuntu2_i386.deb
+ubuntuclub-repository_0.1ubuntu1-1_i386.deb
+usplash-theme-clubdistro_0.1ubuntu1-1_i386.deb
+xkb-data-hacked_0.8-7mrchoke1_all.deb
