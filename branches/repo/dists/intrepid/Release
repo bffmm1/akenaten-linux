@@ -1,0 +1,22 @@
+Architectures: i386
+Codename: intrepid
+Components: main
+Date: Thu, 13 Nov 2008 04:07:01 UTC
+Label: Thai Open Source Ubuntu Repository
+Origin: thaiopensource.org
+Suite: intrepid
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 Release
+ 64284b064400312b4d050b0d734ffa15             6662 main/binary-i386/Packages
+ 84b885bec88ecff66a92610c30e97f4d             2562 main/binary-i386/Packages.bz2
+ ba224f2b217254bbf5d3da2c28477321             2460 main/binary-i386/Packages.gz
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
+ b7dd8d3c8956a058872550efaa46e8e1c857bb2e             6662 main/binary-i386/Packages
+ d7c021396b50db583238e10ae835da70cdeb11dd             2562 main/binary-i386/Packages.bz2
+ af5bcd5bcd87dafe804b02d183b8395baac3f96f             2460 main/binary-i386/Packages.gz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
+ 26c986cd05a114927b7e67dff6542c996ebc01d43e1ae82540dee40f37d68050             6662 main/binary-i386/Packages
+ b43a034f315c54a44f9b7f6b387b0bd76d800c018f410a12d20c094ddf8d16ce             2562 main/binary-i386/Packages.bz2
+ 705254012650d226001684fd62a526e8bafcec48dd971d569d4cdf1d743b768a             2460 main/binary-i386/Packages.gz
