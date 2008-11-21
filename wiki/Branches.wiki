@@ -4,11 +4,9 @@
 
 Branches is store development packages, design, script and another. 
 
-  #^artwork^ artwork
-  #^gdm-theme^ gdm-theme
-  #^scripts^ use full script
-  #^source-pool^ source code from ubuntu and club distro
-  #^uspalsh^ usplash package modified from ubuntu
-  #^wallpaper^ wallpaper package 
-
-
+  # artwork artwork
+  # gdm-theme gdm-theme
+  # scripts use full script
+  # source-pool source code from ubuntu and club distro
+  # uspalsh usplash package modified from ubuntu
+  # wallpaper wallpaper package 
