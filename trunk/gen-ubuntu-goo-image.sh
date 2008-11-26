@@ -7,6 +7,8 @@ cp chroot/boot/vmlinuz-2.6.27-7-generic image/casper/vmlinuz
 cp chroot/boot/initrd.img-2.6.27-7-generic image/casper/initrd.gz
 cp /usr/lib/syslinux/isolinux.bin image/isolinux/
 cp -rf install image/
+cp -rf dists image/
+cp -rf pool image/
 #cp /boot/memtest86+.bin image/install/
 #cp /boot/sbm.img image/install/
 #cp isolinux.cfg image/isolinux/isolinux.cfg
