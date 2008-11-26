@@ -4,7 +4,7 @@ echo "=== gen Ubuntu Goo Script ==="
 echo "1. make chroot"
 mkdir chroot
 echo "2. gen bootstrap"
-debootstrap --arch i386 intrepid chroot http://fr.archive.ubuntu.com/ubuntu
+debootstrap --arch i386 intrepid chroot http://mirror1.ku.ac.th/ubuntu
 echo "3. copy resolv"
 cp /etc/resolv.conf chroot/etc/resolv.conf
 echo "4. copy apt sources.list"
