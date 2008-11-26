@@ -9,6 +9,7 @@ cp /usr/lib/syslinux/isolinux.bin image/isolinux/
 cp -rf install image/
 cp -rf dists image/
 cp -rf pool image/
+cp -rf README.diskdefines image/
 #cp /boot/memtest86+.bin image/install/
 #cp /boot/sbm.img image/install/
 #cp isolinux.cfg image/isolinux/isolinux.cfg
