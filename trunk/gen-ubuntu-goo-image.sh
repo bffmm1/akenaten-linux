@@ -7,8 +7,9 @@ cp chroot/boot/vmlinuz-2.6.27-7-generic image/casper/vmlinuz
 cp chroot/boot/initrd.img-2.6.27-7-generic image/casper/initrd.gz
 cp /usr/lib/syslinux/isolinux.bin image/isolinux/
 cp -rf install image/
-#cp -rf dists image/
-#cp -rf pool image/
+cp -rf dists image/
+cp -rf pool image/
+cp -rf .disk image/
 echo "make manifest"
 chroot chroot dpkg-query -W --showformat='${Package} ${Version}\n' > image/casper/filesystem.manifest
 cp image/casper/filesystem.manifest image/casper/filesystem.manifest-desktop
