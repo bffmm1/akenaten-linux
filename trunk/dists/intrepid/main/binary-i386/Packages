@@ -1,0 +1,881 @@
+Package: proftpd-mod-mysql
+Priority: optional
+Section: net
+Installed-Size: 256
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Architecture: i386
+Source: proftpd-dfsg
+Version: 1.3.1-12ubuntu1
+Depends: proftpd-basic (= 1.3.1-12ubuntu1), libc6 (>= 2.4), libmysqlclient15off (>= 5.0.27-1), zlib1g (>= 1:1.1.4)
+Filename: pool/main/proftpd-mod-mysql_1.3.1-12ubuntu1_i386.deb
+Size: 202280
+MD5sum: 908ad68b4211f7dae35ac840a7919a32
+SHA1: 59746745c6ada52ed7116e9893c266cef1887861
+SHA256: 9440978aff30602be83101790c4c72bccfa2b7cf742bdef4ed8849e4faa5e2d0
+Description: versatile, virtual-hosting FTP daemon - MySQL module
+ ProFTPd is a powerful replacement for wu-ftpd. This File Transfer Protocol
+ daemon supports hidden directories, virtual hosts, and per-directory
+ ".ftpaccess" files. It uses a single main configuration file, with a
+ syntax similar to Apache.
+ .
+ Because of the advanced design, anonymous-FTP directories can have
+ an arbitrary internal structure (bin, lib, etc, and special files are
+ not needed). Advanced features such as multiple password files and
+ upload/download ratios are also supported.
+Homepage: http://www.proftpd.org/
+
+Package: proftpd
+Priority: optional
+Section: net
+Installed-Size: 224
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Architecture: all
+Source: proftpd-dfsg
+Version: 1.3.1-12ubuntu1
+Depends: proftpd-basic, proftpd-mod-mysql, proftpd-mod-pgsql, proftpd-mod-ldap
+Filename: pool/main/proftpd_1.3.1-12ubuntu1_all.deb
+Size: 194112
+MD5sum: 6632d278ecf8d082af98da56216bcfe8
+SHA1: 5f5195d275195f3b9f803c056054fa3bfa48814b
+SHA256: e2746902935081d6866e49a3949a31c4dfb22f5d40886081a580d1fd2335b213
+Description: versatile, virtual-hosting FTP daemon
+ ProFTPd is a powerful replacement for wu-ftpd. This File Transfer Protocol
+ daemon supports hidden directories, virtual hosts, and per-directory
+ ".ftpaccess" files. It uses a single main configuration file, with a
+ syntax similar to Apache.
+ .
+ Because of the advanced design, anonymous-FTP directories can have
+ an arbitrary internal structure (bin, lib, etc, and special files are
+ not needed). Advanced features such as multiple password files and
+ upload/download ratios are also supported.
+ .
+ This is a convenience pseudo-package used to install all provided
+ modules. You should install proftpd-basic and one or more of the
+ other proftpd-mod-* packages if you need advanced features.
+Homepage: http://www.proftpd.org/
+
+Package: libapache2-mod-php5
+Priority: optional
+Section: web
+Installed-Size: 5416
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: php5
+Version: 5.2.6-2ubuntu4
+Provides: phpapi-20060613+lfs
+Depends: libbz2-1.0, libc6 (>= 2.7), libcomerr2 (>= 1.01), libdb4.6, libkrb53 (>= 1.6.dfsg.2), libpcre3 (>= 7.4), libssl0.9.8 (>= 0.9.8f-5), libxml2 (>= 2.6.28), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.2.6-2ubuntu4), libmagic1, ucf, tzdata
+Suggests: php-pear, php5-timezonedb
+Conflicts: libapache2-mod-php4, libapache2-mod-php5filter
+Filename: pool/main/libapache2-mod-php5_5.2.6-2ubuntu4_i386.deb
+Size: 2480846
+MD5sum: 0ed1809f98f2632bf8710f1b4c23d4a8
+SHA1: 0d535f7c3bb4206ded2c7cf37a15f7c062320b57
+SHA256: ad5d1319ad6d237f0f0e2c1f0aef528f64f44cd87d5987a58fd691fd526db56e
+Description: server-side, HTML-embedded scripting language (Apache 2 module)
+ This package provides the PHP5 module for the Apache 2 webserver (as
+ found in the apache2-mpm-prefork package).  Please note that this package
+ ONLY works with Apache's prefork MPM, as it is not compiled thread-safe.
+ .
+ The following extensions are built in: bcmath bz2 calendar ctype date dba
+ dom exif filter ftp gettext hash iconv json libxml mbstring mime_magic
+ openssl pcre posix Reflection session shmop SimpleXML soap sockets SPL
+ standard sysvmsg sysvsem sysvshm tokenizer wddx xml xmlreader xmlwriter zip
+ zlib.
+ .
+ PHP5 is an HTML-embedded scripting language. Much of its syntax is borrowed
+ from C, Java and Perl with a couple of unique PHP-specific features thrown
+ in. The goal of the language is to allow web developers to write dynamically
+ generated pages quickly. This version of PHP5 was built with the Suhosin patch.
+Homepage: http://www.php.net/
+
+Package: samba
+Priority: optional
+Section: net
+Installed-Size: 11904
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: i386
+Version: 2:3.2.3-1ubuntu3
+Replaces: samba-common (<= 2.0.5a-2)
+Depends: samba-common (= 2:3.2.3-1ubuntu3), logrotate, libacl1 (>= 2.2.11-1), libattr1 (>= 2.4.41-1), libc6 (>= 2.8~20080505), libcomerr2 (>= 1.01), libcups2 (>= 1.3.8), libgnutls26 (>= 2.4.0-0), libkrb53 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc1, libwbclient0 (>= 2:3.2.0), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, libpam-runtime (>= 0.76-13.1), libpam-modules, lsb-base (>= 3.2-14), procps, update-inetd, adduser
+Suggests: openbsd-inetd | inet-superserver, smbldap-tools, ufw
+Filename: pool/main/samba_2%3a3.2.3-1ubuntu3_i386.deb
+Size: 4368620
+MD5sum: 19feea61625dcef6f0d272a4631e0187
+SHA1: 025d2833ccd79cca3d59ba0594ae6ea628d76218
+SHA256: d947202a17f0f624e4f6ca8524b15b2fca6ddb45219f5cb5b6b34db84a0dfec4
+Description: a LanManager-like file and printer server for Unix
+ The Samba software suite is a collection of programs that
+ implements the SMB/CIFS protocol for unix systems, allowing you to serve
+ files and printers to Windows, NT, OS/2 and DOS clients. This protocol
+ is sometimes also referred to as the LanManager or NetBIOS protocol.
+ .
+ This package contains all the components necessary to turn your
+ Debian GNU/Linux box into a powerful file and printer server.
+ .
+ Currently, the Samba Debian packages consist of the following:
+ .
+  samba - LanManager-like file and printer server for Unix.
+  samba-common - Samba common files used by both the server and the client.
+  smbclient - LanManager-like simple client for Unix.
+  swat - Samba Web Administration Tool
+  samba-doc - Samba documentation.
+  samba-doc-pdf - Samba documentation in PDF format.
+  smbfs - Mount and umount commands for the smbfs (kernels 2.2.x and above).
+  libpam-smbpass - pluggable authentication module for SMB/CIFS password
+                   database
+  libsmbclient - Shared library that allows applications to talk to SMB/CIFS
+                 servers
+  libsmbclient-dev - libsmbclient shared libraries
+  libwbclient0 - Shared library for interfacing with the winbind service
+  winbind - Service to resolve user and group information from Windows NT
+            servers
+ .
+ It is possible to install a subset of these packages depending on
+ your particular needs. For example, to access other SMB/CIFS servers you
+ should only need the smbclient and samba-common packages.
+ .
+ http://www.samba.org/
+
+Package: php5-mcrypt
+Priority: optional
+Section: web
+Installed-Size: 104
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: php-mcrypt
+Version: 5.2.6-0ubuntu2
+Depends: libc6 (>= 2.4), libltdl7 (>= 2.2.4), libmcrypt4, phpapi-20060613+lfs
+Filename: pool/main/php5-mcrypt_5.2.6-0ubuntu2_i386.deb
+Size: 15320
+MD5sum: 8361f2a6902847a05e50c1ec5b15b452
+SHA1: d8dbf95cd1435ff9d0c033664f5ff67c12638fbb
+SHA256: fde5a7d7cf95657099c7f30b146852cf3c95cea809100654f6e93763599ae0e0
+Description: MCrypt module for php5
+ This package provides a module for MCrypt functions in PHP scripts.
+ .
+ PHP5 is an HTML-embedded scripting language. Much of its syntax is borrowed
+ from C, Java and Perl with a couple of unique PHP-specific features thrown
+ in. The goal of the language is to allow web developers to write
+ dynamically generated pages quickly.
+
+Package: mysql-common
+Priority: optional
+Section: misc
+Installed-Size: 140
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: all
+Source: mysql-dfsg-5.0
+Version: 5.0.67-0ubuntu6
+Filename: pool/main/mysql-common_5.0.67-0ubuntu6_all.deb
+Size: 60694
+MD5sum: 38aaf8cd2a0d21b7a940039a1a4ea40a
+SHA1: 37ed210bf2de787c6cb8d374355636d8ad3cfebe
+SHA256: d5f09c74405c53ca4376bc9e313f0c5b73083bb4af6093ccc869ec4ba1e0e290
+Description: MySQL database common files
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes files needed by all versions of the client library
+ (e.g. /etc/mysql/my.cnf).
+Homepage: http://dev.mysql.com/
+
+Package: webmin
+Essential: no
+Priority: optional
+Section: admin
+Installed-Size: 83536
+Maintainer: Jamie Cameron <jcameron@webmin.com>
+Architecture: all
+Version: 1.441
+Replaces: webmin-adsl, webmin-apache, webmin-bandwidth, webmin-bind, webmin-burner, webmin-cfengine, webmin-cluster, webmin-core, webmin-cpan, webmin-dhcpd, webmin-exim, webmin-exports, webmin-fetchmail, webmin-firewall, webmin-freeswan, webmin-frox, webmin-fsdump, webmin-grub, webmin-heartbeat, webmin-htaccess, webmin-inetd, webmin-jabber, webmin-ldap-netgroups, webmin-ldap-user-simple, webmin-ldap-useradmin, webmin-lilo, webmin-logrotate, webmin-lpadmin, webmin-lvm, webmin-mailboxes, webmin-mon, webmin-mysql, webmin-nis, webmin-openslp, webmin-postfix, webmin-postgresql, webmin-ppp, webmin-pptp-client, webmin-pptp-server, webmin-procmail, webmin-proftpd, webmin-pserver, webmin-quota, webmin-samba, webmin-sarg, webmin-sendmail, webmin-shorewall, webmin-slbackup, webmin-smart-status, webmin-snort, webmin-software, webmin-spamassassin, webmin-squid, webmin-sshd, webmin-status, webmin-stunnel, webmin-updown, webmin-usermin, webmin-vgetty, webmin-webalizer, webmin-wuftpd, webmin-wvdial, webmin-xinetd
+Provides: webmin
+Depends: bash, perl, libnet-ssleay-perl, openssl, libauthen-pam-perl, libpam-runtime, libio-pty-perl, libmd5-perl
+Pre-Depends: bash, perl
+Filename: pool/main/webmin_1.441_all.deb
+Size: 13820054
+MD5sum: eba99ec4488bf760ea71b67963fe526b
+SHA1: 92fee6826c2233d04116d53485c694a1444629f7
+SHA256: 80ac79842774f049e48e9d0dd9bfc4c8860c78c0ee79b43481e77894fc9b68fd
+Description: A web-based administration interface for Unix systems.
+	     Using Webmin you can configure DNS, Samba, NFS, local/remote
+	     filesystems and more using your web browser.  After installation,
+	     enter the URL https://localhost:10000/ into your browser and
+	     login as root with your root password.
+
+Package: dovecot-imapd
+Priority: optional
+Section: mail
+Installed-Size: 1484
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: i386
+Source: dovecot
+Version: 1:1.1.4-0ubuntu1.2
+Replaces: dovecot-common (<< 1:1.1), imap-server
+Provides: imap-server
+Depends: libc6 (>= 2.7), libssl0.9.8 (>= 0.9.8f-5), dovecot-common (= 1:1.1.4-0ubuntu1.2)
+Filename: pool/main/dovecot-imapd_1%3a1.1.4-0ubuntu1.2_i386.deb
+Size: 921466
+MD5sum: 68f6e84f7bfe01d31c2ff8dc344ea658
+SHA1: 7d9faccecfcc6d36cab19d537280f2ab690c2100
+SHA256: 0022a1864cbd9b8b5e7c8790eee33e7adcce29ad916aa712bedf9cf9832d8cfa
+Description: secure IMAP server that supports mbox and maildir mailboxes
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It should
+ also be pretty fast, extensible, and portable.
+ .
+ This package contains the dovecot IMAP server.
+
+Package: proftpd-mod-ldap
+Priority: optional
+Section: net
+Installed-Size: 284
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Architecture: i386
+Source: proftpd-dfsg
+Version: 1.3.1-12ubuntu1
+Depends: proftpd-basic (= 1.3.1-12ubuntu1), libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7)
+Filename: pool/main/proftpd-mod-ldap_1.3.1-12ubuntu1_i386.deb
+Size: 211876
+MD5sum: a63d001ee76bac3f3d32b434bbe76615
+SHA1: ab5c5849cfa5f11e7f3bd488fc528dd1ed5ec11f
+SHA256: f95eb364a6b7c919307b17e4e3a85df96d3774f17ed3d38944f680b7e82f1e19
+Description: versatile, virtual-hosting FTP daemon - LDAP module
+ ProFTPd is a powerful replacement for wu-ftpd. This File Transfer Protocol
+ daemon supports hidden directories, virtual hosts, and per-directory
+ ".ftpaccess" files. It uses a single main configuration file, with a
+ syntax similar to Apache.
+ .
+ Because of the advanced design, anonymous-FTP directories can have
+ an arbitrary internal structure (bin, lib, etc, and special files are
+ not needed). Advanced features such as multiple password files and
+ upload/download ratios are also supported.
+Homepage: http://www.proftpd.org/
+
+Package: proftpd-mod-pgsql
+Priority: optional
+Section: net
+Installed-Size: 252
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Architecture: i386
+Source: proftpd-dfsg
+Version: 1.3.1-12ubuntu1
+Depends: proftpd-basic (= 1.3.1-12ubuntu1), libc6 (>= 2.1.3), libpq5 (>= 8.3~beta1)
+Filename: pool/main/proftpd-mod-pgsql_1.3.1-12ubuntu1_i386.deb
+Size: 201482
+MD5sum: 1a904c1eeb4b95566f6042a790a5781e
+SHA1: 82f24b269072ed84e32a41a44735cdf81c461ace
+SHA256: 014eb7fe1bdc8fef41b1cd4d385877e66fe668c098645b6226a7984ca377c4e4
+Description: versatile, virtual-hosting FTP daemon - PostgreSQL module
+ ProFTPd is a powerful replacement for wu-ftpd. This File Transfer Protocol
+ daemon supports hidden directories, virtual hosts, and per-directory
+ ".ftpaccess" files. It uses a single main configuration file, with a
+ syntax similar to Apache.
+ .
+ Because of the advanced design, anonymous-FTP directories can have
+ an arbitrary internal structure (bin, lib, etc, and special files are
+ not needed). Advanced features such as multiple password files and
+ upload/download ratios are also supported.
+Homepage: http://www.proftpd.org/
+
+Package: apache2.2-common
+Priority: optional
+Section: web
+Installed-Size: 3584
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: i386
+Source: apache2
+Version: 2.2.9-7ubuntu3
+Replaces: apache2-common
+Depends: libapr1, libaprutil1, libc6 (>= 2.4), libssl0.9.8 (>= 0.9.8f-5), zlib1g (>= 1:1.1.4), apache2-utils, net-tools, libmagic1, mime-support, lsb-base, procps, perl
+Recommends: ssl-cert
+Suggests: www-browser, apache2-doc, apache2-suexec | apache2-suexec-custom, ufw
+Conflicts: apache2-common, libapache2-mod-mime-xattr (<= 0.3-2), libapache2-mod-mono (<= 1.1.17-3), libapache2-mod-php4 (<= 4:4.4.4-2), libapache2-mod-php5 (<= 5.1.6-3), libapache2-mod-proxy-html (<= 2.4.3-2), libapache2-mod-scgi (<= 1.11-1), libapache2-mod-speedycgi (<= 2.22-3), libapache2-modxslt (<= 2005072700-1), libapache2-redirtoservername (<= 0.1-1), libapache2-webauth (<= 3.5.3-1), libapache2-webkdc (<= 3.5.3-1)
+Filename: pool/main/apache2.2-common_2.2.9-7ubuntu3_i386.deb
+Size: 777512
+MD5sum: 7d9b72d4f7d529a89fe626fd420af133
+SHA1: c1260682358da5e8b25a1b6c50fe9e477b0a0433
+SHA256: 002a321f15c526761dbed5a0576eaf89926384207a52fb570e81a122e30b9cfe
+Description: Apache HTTP Server common files
+ The Apache Software Foundation's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ This package contains all the standard apache2 modules, including SSL support.
+ However, it does *not* include the server itself; for this you need to
+ install one of the apache2-mpm-* packages, such as worker or prefork.
+Homepage: http://httpd.apache.org/
+
+Package: proftpd-basic
+Priority: optional
+Section: net
+Installed-Size: 1740
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Architecture: i386
+Source: proftpd-dfsg
+Version: 1.3.1-12ubuntu1
+Replaces: proftpd-common
+Provides: ftp-server
+Depends: netbase (>= 4.13), libacl1 (>= 2.2.11-1), libattr1 (>= 2.4.41-1), libc6 (>= 2.7), libcap1, libncurses5 (>= 5.6+20071006-3), libpam0g (>= 0.99.7.1), libssl0.9.8 (>= 0.9.8f-5), libwrap0 (>= 7.6-4~), debconf (>= 0.5.00), adduser, ucf (>= 0.30), debianutils (>= 1.21.0), libpam-runtime (>= 0.76-13.1), update-inetd, sed (>= 4.1.5)
+Suggests: proftpd-doc, openssl, proftpd-mod-mysql, proftpd-mod-pgsql, proftpd-mod-ldap
+Conflicts: ftp-server, proftpd-common
+Filename: pool/main/proftpd-basic_1.3.1-12ubuntu1_i386.deb
+Size: 692292
+MD5sum: 1b3e15e21f5f80efba0d074e535b6769
+SHA1: 6dd819d08d492c6b710ea2bdc6396ba7dcfcce46
+SHA256: 26b2ce4e67a88dc3baa0a8b8215e0f0ad8072d022e023b5121620dff66e8a4dc
+Description: versatile, virtual-hosting FTP daemon - binaries
+ ProFTPd is a powerful replacement for wu-ftpd. This File Transfer Protocol
+ daemon supports hidden directories, virtual hosts, and per-directory
+ ".ftpaccess" files. It uses a single main configuration file, with a
+ syntax similar to Apache.
+ .
+ Because of the advanced design, anonymous-FTP directories can have
+ an arbitrary internal structure (bin, lib, etc, and special files are
+ not needed). Advanced features such as multiple password files and
+ upload/download ratios are also supported.
+ .
+ This package contains the daemon and all main modules used for
+ common configurations. If you need database-centric authentication
+ install the suitable proftpd-mod suggested package.
+Homepage: http://www.proftpd.org/
+
+Package: bind9
+Priority: optional
+Section: net
+Installed-Size: 756
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: i386
+Version: 1:9.5.0.dfsg.P2-1ubuntu2
+Replaces: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind, dnsutils (<< 1:9.1.0-3)
+Depends: libbind9-40 (= 1:9.5.0.dfsg.P2-1ubuntu2), libc6 (>= 2.4), libcap2, libdb4.7, libdns43 (= 1:9.5.0.dfsg.P2-1ubuntu2), libisc44 (= 1:9.5.0.dfsg.P2-1ubuntu2), libisccc40 (= 1:9.5.0.dfsg.P2-1ubuntu2), libisccfg40 (= 1:9.5.0.dfsg.P2-1ubuntu2), libkrb53 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), liblwres40 (= 1:9.5.0.dfsg.P2-1ubuntu2), libssl0.9.8 (>= 0.9.8f-5), libxml2 (>= 2.6.27), debconf | debconf-2.0, netbase, adduser, lsb-base (>= 3.0-6), bind9utils (= 1:9.5.0.dfsg.P2-1ubuntu2)
+Suggests: dnsutils, bind9-doc, resolvconf, ufw
+Conflicts: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind
+Filename: pool/main/bind9_1%3a9.5.0.dfsg.P2-1ubuntu2_i386.deb
+Size: 242886
+MD5sum: b099c0ac67c5a56b1e91adb781c9427e
+SHA1: 472a57dfd67ca8b62f036de1c7a632b51aed6abf
+SHA256: e8372e002ece34bfab096b00983490eb6a069bae9ccca53693c51e5a8d38a80b
+Description: Internet Domain Name Server
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package provides the server and related configuration files.
+
+Package: php5-mysql
+Priority: optional
+Section: web
+Installed-Size: 240
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: php5
+Version: 5.2.6-2ubuntu4
+Replaces: php5-mysqli
+Depends: libc6 (>= 2.4), libmysqlclient15off (>= 5.0.27-1), phpapi-20060613+lfs, php5-common (= 5.2.6-2ubuntu4)
+Conflicts: php5-mysqli
+Filename: pool/main/php5-mysql_5.2.6-2ubuntu4_i386.deb
+Size: 65938
+MD5sum: d844f56af54d9576593e5fceab30f734
+SHA1: 20ef04ef6812e0de71dd53002a8358a0cf44138d
+SHA256: 849a96d4d7cefcfcb302854d210260e46e1f061d5514b7edcfd787bb8f65afc7
+Description: MySQL module for php5
+ This package provides modules for MySQL database connections directly from
+ PHP scripts.  It includes the generic "mysql" module which can be used
+ to connect to all versions of MySQL, an improved "mysqli" module for
+ MySQL version 4.1 or later, and the pdo_mysql module for use with
+ the PHP Data Object extension.
+ .
+ PHP5 is an HTML-embedded scripting language. Much of its syntax is borrowed
+ from C, Java and Perl with a couple of unique PHP-specific features thrown
+ in. The goal of the language is to allow web developers to write dinamically
+ generated pages quickly. This version of PHP5 was built with the Suhosin patch.
+Homepage: http://www.php.net/
+
+Package: php5-common
+Priority: optional
+Section: web
+Installed-Size: 728
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: php5
+Version: 5.2.6-2ubuntu4
+Provides: php5-json
+Depends: sed (>= 4.1.1-1), libc6 (>= 2.4)
+Conflicts: php5-json
+Filename: pool/main/php5-common_5.2.6-2ubuntu4_i386.deb
+Size: 364858
+MD5sum: 8e27e8f11a0d3a21c8549f717468fad7
+SHA1: 051af6b970fbfcd36cae4c26122636966352ac38
+SHA256: 908973e4730d205c8c8ea07cd8d454fb9122fd247d1a84561e0289c9a4ad2c45
+Description: Common files for packages built from the php5 source
+ This package contains the documentation and example files relevant to all
+ the other packages built from the php5 source.
+ .
+ PHP5 is an HTML-embedded scripting language. Much of its syntax is borrowed
+ from C, Java and Perl with a couple of unique PHP-specific features thrown
+ in. The goal of the language is to allow web developers to write dynamically
+ generated pages quickly. This version of PHP5 was built with the Suhosin patch.
+Homepage: http://www.php.net/
+
+Package: libt1-5
+Priority: optional
+Section: libs
+Installed-Size: 352
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Torsten Werner <twerner@debian.org>
+Architecture: i386
+Source: t1lib
+Version: 5.1.2-2
+Depends: libc6 (>= 2.4), libx11-6
+Filename: pool/main/libt1-5_5.1.2-2_i386.deb
+Size: 141672
+MD5sum: 2cb34282466ff50d91cf7dc5808fc088
+SHA1: d8bae5a398af2763c74ad1511356bfc7ef928f3c
+SHA256: c536498653000ec54b546030d5a1a0c706833fa9f37e9112e787ec0e80d80fa8
+Description: Type 1 font rasterizer library - runtime
+ T1lib is an enhanced rasterizer for Type 1 fonts.
+ .
+ T1lib is based on the X11R5 font rasterizer code, but operates independently
+ of X11.  It includes many enhancements, including underlining, antialiasing,
+ user-defined slant and extension factors, and rotation.
+ .
+ This package contains the shared libraries needed to run programs using T1lib.
+
+Package: openssh-server
+Priority: optional
+Section: net
+Installed-Size: 764
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Original-Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
+Architecture: i386
+Source: openssh
+Version: 1:5.1p1-3ubuntu1
+Replaces: openssh-client (<< 1:3.8.1p1-11), ssh, ssh-krb5
+Provides: ssh-server
+Depends: libc6 (>= 2.8~20080505), libcomerr2 (>= 1.01), libkrb53 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.59), libssl0.9.8 (>= 0.9.8g-9), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), openssh-client (= 1:5.1p1-3ubuntu1), lsb-base (>= 3.2-13)
+Recommends: xauth
+Suggests: ssh-askpass, rssh, molly-guard, openssh-blacklist, openssh-blacklist-extra, ufw
+Conflicts: rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2
+Filename: pool/main/openssh-server_1%3a5.1p1-3ubuntu1_i386.deb
+Size: 285184
+MD5sum: 2e9cc4f8c259d2bb21bfc9760bc2a5be
+SHA1: 96baa8480d3c2df1c4fa851a3cbd1afe998fe912
+SHA256: 92fcf584f052d37d504183fe020704a5f21f56fd82ae0073c4a092e3b5222876
+Description: secure shell server, an rshd replacement
+ This is the portable version of OpenSSH, a free implementation of
+ the Secure Shell protocol as specified by the IETF secsh working
+ group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine
+ and for executing commands on a remote machine.
+ It provides secure encrypted communications between two untrusted
+ hosts over an insecure network. X11 connections and arbitrary TCP/IP
+ ports can also be forwarded over the secure channel.
+ It is intended as a replacement for rlogin, rsh and rcp, and can be
+ used to provide applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+
+Package: libaprutil1
+Priority: optional
+Section: libs
+Installed-Size: 196
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: i386
+Source: apr-util
+Version: 1.2.12+dfsg-7
+Depends: libapr1, libc6 (>= 2.4), libdb4.6, libexpat1 (>= 1.95.8), libldap-2.4-2 (>= 2.4.7), libmysqlclient15off (>= 5.0.27-1), libpq5 (>= 8.3~beta1), libsqlite3-0 (>= 3.5.9), libuuid1
+Conflicts: apache2.2-common (<< 2.2.8-1~), libaprutil1.0, php4-mysql (<< 6:4.4.4-10), php5-mysql (<< 5.2.6-1~)
+Filename: pool/main/libaprutil1_1.2.12+dfsg-7_i386.deb
+Size: 75700
+MD5sum: 80887cea6ddfcd9a2d11c834e6b2cb80
+SHA1: 30277222eca08989c6b9dc0b64ed70fe24bcf4c7
+SHA256: dc784accd3382fcd021c45f6e1377ddcc7d617213b077c04203138a177055f77
+Description: The Apache Portable Runtime Utility Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+Homepage: http://apr.apache.org/
+
+Package: libmysqlclient15off
+Priority: optional
+Section: libs
+Installed-Size: 3980
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: mysql-dfsg-5.0
+Version: 5.0.67-0ubuntu6
+Replaces: libmysqlclient15, mysql-doc-5.0 (<< 5.0.56-0ubuntu1)
+Depends: mysql-common (>= 5.0.67-0ubuntu6), libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
+Conflicts: libmysqlclient15, mysql-doc-5.0 (<< 5.0.56-0ubuntu1)
+Filename: pool/main/libmysqlclient15off_5.0.67-0ubuntu6_i386.deb
+Size: 1840584
+MD5sum: d6a6f4cb6821ba0667062e5407892fa2
+SHA1: a1c3630281249d2c39573145443d610791fdd1b8
+SHA256: 6a4bd24e263b55679c5ef11166cc8df66deaf174cf7f917e88a353fa5c27b78f
+Description: MySQL database client library
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the client library.
+Homepage: http://dev.mysql.com/
+
+Package: libgd2-xpm
+Priority: optional
+Section: libs
+Installed-Size: 640
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: libgd2
+Version: 2.0.36~rc1~dfsg-3ubuntu1
+Provides: libgd2
+Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.3.5), libjpeg62, libpng12-0 (>= 1.2.13-4), libx11-6, libxpm4, zlib1g (>= 1:1.1.4)
+Suggests: libgd-tools
+Conflicts: libgd2, libgd2-noxpm
+Filename: pool/main/libgd2-xpm_2.0.36~rc1~dfsg-3ubuntu1_i386.deb
+Size: 210878
+MD5sum: b52eefe8a1e1462fe61e257a6680101e
+SHA1: d4585d3d08f29c07dbf2a9df27df94507bccaa2c
+SHA256: ce33c57831418348d463c0ab84da9fc4475c7a7639334985c0e066ef04e8e9d4
+Description: GD Graphics Library version 2
+ GD is a graphics library. It allows your code to quickly draw images
+ complete with lines, arcs, text, multiple colours, cut and paste from
+ other images, flood fills, and write out the result as a PNG file.
+ This is particularly useful in World Wide Web applications, where PNG is
+ one of the formats accepted for inline images by most browsers.
+ .
+ This is the runtime package of the library, built with XPM (X pixmap)
+ and fontconfig support.
+Homepage: http://www.libgd.org/
+
+Package: apache2-mpm-prefork
+Priority: optional
+Section: web
+Installed-Size: 520
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: i386
+Source: apache2
+Version: 2.2.9-7ubuntu3
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Depends: libapr1, libaprutil1, libc6 (>= 2.4), libpcre3 (>= 7.4), apache2.2-common (= 2.2.9-7ubuntu3)
+Conflicts: apache2-common, apache2-mpm
+Filename: pool/main/apache2-mpm-prefork_2.2.9-7ubuntu3_i386.deb
+Size: 235218
+MD5sum: 5ec1021eeade2eade32148117ae9686b
+SHA1: 6f75a0db3a9a7d04139752281a28d6602ae236f7
+SHA256: 6b33021ffea54e2e4e428ee8eda94f3fcecc22441bd2479de094070462ceb0f8
+Description: Apache HTTP Server - traditional non-threaded model
+ Each Apache Multi-Processing Module provides a different "flavor" of
+ web server binary, compiled with a different processing model.
+ .
+ The prefork MPM provides a non-threaded, pre-forking implementation
+ that handles requests in a manner similar to Apache 1.3. It is not as
+ fast as threaded models, but is considered to be more stable. It is
+ appropriate for sites that need to maintain compatibility with
+ non-thread-safe libraries, and is the best MPM for isolating each
+ request, so that a problem with a single request will not affect any
+ other.
+Homepage: http://httpd.apache.org/
+
+Package: libpq5
+Priority: optional
+Section: libs
+Installed-Size: 872
+Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
+Original-Maintainer: Martin Pitt <mpitt@debian.org>
+Architecture: i386
+Source: postgresql-8.3
+Version: 8.3.4-2.2
+Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libkrb53 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libssl0.9.8 (>= 0.9.8f-5)
+Filename: pool/main/libpq5_8.3.4-2.2_i386.deb
+Size: 280796
+MD5sum: f334ddd5efa5d5bbf5a660609dd37305
+SHA1: 5771db5f285f5d39f0150cf0055dc76aaac8c697
+SHA256: 2f35f5b43029b5fb0d0f650497e722a0c2f033ce0af7cab5ada0e32f9b28bf8b
+Description: PostgreSQL C client library
+ libpq is a C library that enables user programs to communicate with
+ the PostgreSQL database server.  The server can be on another machine
+ and accessed through TCP/IP.  This version of libpq is compatible
+ with servers from PostgreSQL 8.2 or later.
+ .
+ This package contains the run-time library, needed by packages using
+ libpq.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: php5-gd
+Priority: optional
+Section: web
+Installed-Size: 164
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: i386
+Source: php5
+Version: 5.2.6-2ubuntu4
+Depends: libc6 (>= 2.4), libfreetype6 (>= 2.3.5), libgd2-xpm (>= 2.0.36~rc1~dfsg), libjpeg62, libpng12-0 (>= 1.2.13-4), libt1-5, libx11-6, libxpm4, zlib1g (>= 1:1.1.4), phpapi-20060613+lfs, php5-common (= 5.2.6-2ubuntu4)
+Filename: pool/main/php5-gd_5.2.6-2ubuntu4_i386.deb
+Size: 32456
+MD5sum: 31cb950bf3faa96aef09bc820296f5b2
+SHA1: 25a4f2c5bd3b4a951bd4ba542b02de269b421eca
+SHA256: 58456074ac4f5f90da3bcac9aa82f21dad2be9c02b7a7f3a563292ae18cff071
+Description: GD module for php5
+ This package provides a module for handling graphics directly from PHP
+ scripts. It supports the PNG, JPEG, XPM formats as well as Freetype/ttf fonts.
+ .
+ PHP5 is an HTML-embedded scripting language. Much of its syntax is borrowed
+ from C, Java and Perl with a couple of unique PHP-specific features thrown
+ in. The goal of the language is to allow web developers to write dinamically
+ generated pages quickly. This version of PHP5 was built with the Suhosin patch.
+Homepage: http://www.php.net/
+
+Package: dovecot-pop3d
+Priority: optional
+Section: mail
+Installed-Size: 1384
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: i386
+Source: dovecot
+Version: 1:1.1.4-0ubuntu1.2
+Replaces: dovecot-common (<< 1:1.1), pop3-server
+Provides: pop3-server
+Depends: libc6 (>= 2.7), libssl0.9.8 (>= 0.9.8f-5), dovecot-common (= 1:1.1.4-0ubuntu1.2)
+Filename: pool/main/dovecot-pop3d_1%3a1.1.4-0ubuntu1.2_i386.deb
+Size: 875480
+MD5sum: 1a2aed36f01b569b9bde6b77a29157e4
+SHA1: 1e5f60c07c8f61496509dc38f06ceb5d041e18a8
+SHA256: 7598f2f4ecd146600429324a5b5b5853d11beb6fa52917438d23db70d7fd8b14
+Description: secure POP3 server that supports mbox and maildir mailboxes
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It should
+ also be pretty fast, extensible, and portable.
+ .
+ This package contains the dovecot POP3 server.
+
+Package: phpmyadmin
+Priority: extra
+Section: web
+Installed-Size: 10128
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Thijs Kinkhorst <thijs@debian.org>
+Architecture: all
+Version: 4:2.11.8.1-1
+Depends: libapache2-mod-php5 | libapache-mod-php5 | php5-cgi | php5 | libapache2-mod-php4 | libapache-mod-php4 | php4 | php4-cgi, php5-mysql | php5-mysqli | php4-mysql, php5-mcrypt | php4-mcrypt, perl, debconf (>= 0.5) | debconf-2.0
+Recommends: apache2 | lighttpd | httpd, php5-gd | php4-gd
+Suggests: mysql-server
+Filename: pool/main/phpmyadmin_4%3a2.11.8.1-1_all.deb
+Size: 2869596
+MD5sum: ddb6075254594e0926782e0bf6b2d7d9
+SHA1: 5cfc1dabfcd469ca0217fa0373664939aafbc89c
+SHA256: 9118dc6dfec12bf07929bb3dd09404d9320cf413c65edbfacd90ab9b6a7210d7
+Description: MySQL web administration tool
+ This package allows administering of MySQL with a web interface.
+ .
+ It allows administrators to:
+  - browse through databases and tables;
+  - create, copy, rename, alter and drop databases;
+  - create, copy, rename, alter and drop tables;
+  - perform table maintenance;
+  - add, edit and drop fields;
+  - execute any SQL-statement, even multiple queries;
+  - create, alter and drop indexes;
+  - load text files into tables;
+  - create and read dumps of tables or databases;
+  - export data to SQL, CSV, XML, Word, Excel, PDF and LaTeX formats;
+  - administer multiple servers;
+  - manage MySQL users and privileges;
+  - check server settings and runtime information with configuration hints;
+  - check referential integrity in MyISAM tables;
+  - create complex queries using Query-by-example (QBE), automatically
+    connecting required tables;
+  - create PDF graphics of database layout;
+  - search globally in a database or a subset of it;
+  - transform stored data into any format using a set of predefined
+    functions, such as displaying BLOB-data as image or download-link;
+  - support InnoDB tables and foreign keys;
+  - support mysqli, the improved MySQL extension;
+ and is fully internationalized and localized in dozens of languages.
+Homepage: http://www.phpmyadmin.net/
+
+Package: libmcrypt4
+Priority: optional
+Section: libs
+Installed-Size: 256
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: RISKO Gergely <risko@debian.org>
+Architecture: i386
+Source: libmcrypt
+Version: 2.5.7-5ubuntu1
+Depends: libc6 (>= 2.4)
+Suggests: libmcrypt-dev, mcrypt
+Filename: pool/main/libmcrypt4_2.5.7-5ubuntu1_i386.deb
+Size: 81238
+MD5sum: 229fd9d7e45e3a83acf6ce3a69f0cf43
+SHA1: 70fad05d6b06f99d6b041a4da8decfca2564fc97
+SHA256: f08b71e1487e880e6ecfcf311e01ad8f82385f7a50e45562e5ff96069386b590
+Description: De-/Encryption Library
+ libmcrypt is the library which implements all the algorithms and
+ modes found in mcrypt.
+ .
+ libmcrypt supports the algorithms: BLOWFISH, TWOFISH, DES, TripleDES,
+ 3-WAY, SAFER-sk64, SAFER-sk128, SAFER+, LOKI97, GOST, RC2, RC6, MARS,
+ IDEA, RIJNDAEL-128, RIJNDAEL-192, SERPENT, RIJNDAEL-256, CAST-128
+ (known as CAST5), CAST-256, ARCFOUR, ENIGMA, PANAMA, XTEA and WAKE.
+ Block algorithms can be used in: CBC, ECB, CFB and OFB (8 bit and n
+ bit, where n is the size of the algorithm's block length).
+ .
+ More information can be found at the libmcrypt homepage
+ http://mcrypt.sourceforge.net/ .
+
+Package: postfix
+Priority: extra
+Section: mail
+Installed-Size: 2924
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: i386
+Version: 2.5.5-1
+Replaces: mail-transport-agent, postfix-tls
+Provides: mail-transport-agent, postfix-tls
+Depends: libc6 (>= 2.4), libdb4.7, libsasl2-2, libssl0.9.8 (>= 0.9.8f-5), debconf (>= 0.5) | debconf-2.0, netbase, adduser (>= 3.48), dpkg (>= 1.8.3), lsb-base (>= 3.0-6), ssl-cert
+Suggests: procmail, postfix-mysql, postfix-pgsql, postfix-ldap, postfix-pcre, sasl2-bin, libsasl2-modules, resolvconf, postfix-cdb, mail-reader, ufw
+Conflicts: libnss-db (<< 2.2-3), mail-transport-agent, postfix-tls, smail
+Filename: pool/main/postfix_2.5.5-1_i386.deb
+Size: 1218738
+MD5sum: f65ecdbc4c45e0828be07332075a345f
+SHA1: 8a6fc9157f8f16c89554961cc7bf28e79a885d36
+SHA256: 786f5be89ea3c5478c4d9121bb1f0ed2abb425268ba52c57f1750d393c24cdef
+Description: High-performance mail transport agent
+ Postfix is Wietse Venema's mail transport agent that started life as an
+ alternative to the widely-used Sendmail program.  Postfix attempts to
+ be fast, easy to administer, and secure, while at the same time being
+ sendmail compatible enough to not upset existing users. Thus, the outside
+ has a sendmail-ish flavor, but the inside is completely different.
+
+Package: bind9utils
+Priority: optional
+Section: net
+Installed-Size: 260
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: i386
+Source: bind9
+Version: 1:9.5.0.dfsg.P2-1ubuntu2
+Replaces: bind9 (<= 1:9.5.0~b2-1)
+Depends: libbind9-40
+Filename: pool/main/bind9utils_1%3a9.5.0.dfsg.P2-1ubuntu2_i386.deb
+Size: 89952
+MD5sum: 62c718a553dd8ee84a3a249ee77471a8
+SHA1: 3cc783ec96a03a5e27a56341b8815fc057539506
+SHA256: e3c3df45352289ae8250375585de2ee389ae2b5f04f7d0e31a9351102263231a
+Description: Utilities for BIND
+ This package provides various utilities that are useful for maintaining a
+ working BIND installation.
+
+Package: dovecot-common
+Priority: optional
+Section: mail
+Installed-Size: 7416
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: i386
+Source: dovecot
+Version: 1:1.1.4-0ubuntu1.2
+Replaces: dovecot
+Depends: libbz2-1.0, libc6 (>= 2.7), libcomerr2 (>= 1.01), libkrb53 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libmysqlclient15off (>= 5.0.27-1), libpam0g (>= 0.99.7.1), libpq5 (>= 8.3~beta1), libsqlite3-0 (>= 3.5.9), libssl0.9.8 (>= 0.9.8f-5), zlib1g (>= 1:1.2.3.3.dfsg), libpam-runtime (>= 0.76-13.1), openssl, adduser, ucf (>= 2.0020), ssl-cert (>= 1.0-11ubuntu1), lsb-base (>= 3.2-12ubuntu3)
+Suggests: ufw
+Filename: pool/main/dovecot-common_1%3a1.1.4-0ubuntu1.2_i386.deb
+Size: 3516848
+MD5sum: 141649512b9ff346eab0582b9338da54
+SHA1: 2335407c7518176a1bc6d1cf24604c205817a330
+SHA256: 7f13bb1d95e85bd4e2bef279990ca7c14e3bf4f8c1e848a6f986374a317adf62
+Description: secure mail server that supports mbox and maildir mailboxes
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It should
+ also be pretty fast, extensible, and portable.
+ .
+ This package contains the files used by both the dovecot IMAP and POP3
+ servers.
+
+Package: libapr1
+Priority: optional
+Section: libs
+Installed-Size: 260
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: i386
+Source: apr
+Version: 1.2.12-4
+Depends: libc6 (>= 2.4), libuuid1
+Conflicts: libapr1.0
+Filename: pool/main/libapr1_1.2.12-4_i386.deb
+Size: 108858
+MD5sum: a0b74ef577b4e5a05e36ec2f64609ed8
+SHA1: 80967d2ac777769bf8e0e615eb326612373a402d
+SHA256: 2db92968fa0255d27aada85ea5f722dbe0fbfd31ec2b2b7b5d0c3d444d5efa61
+Description: The Apache Portable Runtime Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+
+Package: apache2-utils
+Priority: optional
+Section: web
+Installed-Size: 360
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: i386
+Source: apache2
+Version: 2.2.9-7ubuntu3
+Replaces: apache-utils (<< 1.3.33-4), apache2-common
+Depends: libapr1, libaprutil1, libc6 (>= 2.4), libssl0.9.8 (>= 0.9.8f-5)
+Conflicts: apache-common (<< 1.3.28.0.1-1)
+Filename: pool/main/apache2-utils_2.2.9-7ubuntu3_i386.deb
+Size: 145832
+MD5sum: 6de15283157861084695fbab629508f5
+SHA1: a154129914c2f8eee691ba3557b8a7751ec07990
+SHA256: ae0403c5b3f8645b9656b9d55700026ec9b3bde249cd17cca3d976e33ad78842
+Description: utility programs for webservers
+ Provides some add-on programs useful for any webserver.  These include:
+  - ab (Apache benchmark tool)
+  - logresolve (Resolve IP addresses to hostname in logfiles)
+  - htpasswd (Manipulate basic authentication files)
+  - htdigest (Manipulate digest authentication files)
+  - dbmmanage (Manipulate basic authentication files in DBM format, using perl)
+  - htdbm (Manipulate basic authentication files in DBM format, using APR)
+  - rotatelogs (Periodically stop writing to a logfile and open a new one)
+  - split-logfile (Split a single log including multiple vhosts)
+  - checkgid (Checks whether the caller can setgid to the specified group)
+  - check_forensic (Extract mod_log_forensic output from apache log files)
+Homepage: http://httpd.apache.org/
+
