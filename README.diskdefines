@@ -1,4 +1,4 @@
-#define DISKNAME  Ubuntu 8.10 "Intrepid Ibex" - Release i386
+#define DISKNAME  Akenaten 8.10 - Release i386
 #define TYPE  binary
 #define TYPEbinary  1
 #define ARCH  i386
