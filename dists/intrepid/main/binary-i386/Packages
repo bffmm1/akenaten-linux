@@ -438,6 +438,49 @@ Description: backwards-compatible wrapper for Digest::MD5
  module.  It is provided so that legacy code that rely on the old
  interface continue to work with the speed benefit of the new module.
 
+Package: linux-server
+Priority: optional
+Section: metapackages
+Installed-Size: 32
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-meta
+Version: 2.6.27.7.11
+Depends: linux-image-server (= 2.6.27.7.11)
+Filename: pool/main/linux-server_2.6.27.7.11_i386.deb
+Size: 2808
+MD5sum: d6dd049ab8416996012e0ea9c8dfa3bb
+SHA1: 1370c6a62383e9b23c964f5ed86fd79d907dcbba
+SHA256: 7b92dcfa4db13298fd7e92c9bb5a4360e49fb655711674177cf158e1f98a2426
+Description: Complete Linux kernel on Server Equipment.
+ This package will always depend on the latest complete Linux kernel available
+ for Server Equipment.
+
+Package: mdadm
+Priority: optional
+Section: admin
+Installed-Size: 644
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian mdadm maintainers <pkg-mdadm-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 2.6.7-3ubuntu8
+Replaces: mdctl
+Depends: libc6 (>= 2.8~20080505), debconf (>= 1.4.72), lsb-base (>= 3.1-6), udev (>= 113-0ubuntu1), initramfs-tools (>= 0.85eubuntu24)
+Recommends: mail-transport-agent, module-init-tools
+Conflicts: mdctl (<< 0.7.2), raidtools2 (<< 1.00.3-12.1)
+Filename: pool/main/mdadm_2.6.7-3ubuntu8_i386.deb
+Size: 233200
+MD5sum: cecee1169ce7f5c9bd23391eed1b2658
+SHA1: e85166f8fffb7dd677249e006d32b6b3af812f31
+SHA256: b56d21cd5a2556bafa15599a7ac79806caa75531c7493d1250655294c3d84aa5
+Description: tool to administer Linux MD arrays (software RAID)
+ The mdadm utility can be used to create, manage, and monitor MD
+ (multi-disk) arrays for software RAID or multipath I/O.
+ .
+ This package automatically configures mdadm to assemble arrays during the
+ system startup process. If not needed, this functionality can be disabled.
+Homepage: http://neil.brown.name/blog/mdadm
+
 Package: libio-pty-perl
 Priority: optional
 Section: perl
@@ -513,6 +556,30 @@ Description: Common files for packages built from the php5 source
  in. The goal of the language is to allow web developers to write dynamically
  generated pages quickly. This version of PHP5 was built with the Suhosin patch.
 Homepage: http://www.php.net/
+
+Package: squid
+Priority: optional
+Section: web
+Installed-Size: 1748
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: i386
+Version: 2.7.STABLE3-1ubuntu2
+Replaces: squid-novm
+Depends: libc6 (>= 2.4), libcomerr2 (>= 1.33-3), libdb4.7, libkrb53 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), netbase, adduser, logrotate (>= 3.5.4-1), squid-common (>= 2.7.STABLE3-1ubuntu2), lsb-base (>= 3.2-14), ssl-cert (>= 1.0-11ubuntu1)
+Pre-Depends: debconf (>= 1.2.9) | debconf-2.0
+Suggests: squidclient, squid-cgi, logcheck-database, resolvconf (>= 0.40), smbclient, winbind
+Conflicts: sarg (<< 1.1.1-2), squid-novm
+Filename: pool/main/squid_2.7.STABLE3-1ubuntu2_i386.deb
+Size: 695542
+MD5sum: 4014b02a2f7b1924c6060d6e5cf2ade4
+SHA1: 5d7330b4b7e46b2446e82cf80eba1e6f2ca4a20f
+SHA256: d26d5e61e40fe4e8777ea4896fe292bd4ef6c765b383a3fabd3e98fa49a7d905
+Description: Internet object cache (WWW proxy cache)
+ This package provides the Squid Internet Object Cache developed by
+ the National Laboratory for Applied Networking Research (NLANR) and
+ Internet volunteers.
+Homepage: http://www.squid-cache.org/
 
 Package: mysql-server
 Priority: optional
@@ -652,6 +719,29 @@ Description: The Apache Portable Runtime Utility Library
  APR Util is a utilities library implemented on top of apr, providing database
  access, xml parsing, and other useful functionality.
 Homepage: http://apr.apache.org/
+
+Package: squid-common
+Priority: optional
+Section: web
+Installed-Size: 4948
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: all
+Source: squid
+Version: 2.7.STABLE3-1ubuntu2
+Replaces: squid (<< 2.6.1-1)
+Filename: pool/main/squid-common_2.7.STABLE3-1ubuntu2_all.deb
+Size: 495748
+MD5sum: c7316a2c47e5f8db862716bc6cc22194
+SHA1: 4539c396519b871f5c0c506d2ca40ef4dbc023fd
+SHA256: 90b0026205d0a55d66751b45e9586915c098d47cf78fa390a222309ed51d0b74
+Description: Internet object cache (WWW proxy cache) - common files
+ This package provides the Squid Internet Object Cache developed by
+ the National Laboratory for Applied Networking Research (NLANR) and
+ Internet volunteers.
+ .
+ This package contains common files (errors and icons)
+Homepage: http://www.squid-cache.org/
 
 Package: libmysqlclient15off
 Priority: optional
@@ -859,6 +949,24 @@ Description: MySQL web administration tool
  and is fully internationalized and localized in dozens of languages.
 Homepage: http://www.phpmyadmin.net/
 
+Package: linux-image-server
+Priority: optional
+Section: metapackages
+Installed-Size: 32
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux-meta
+Version: 2.6.27.7.11
+Depends: linux-image-2.6.27-7-server, linux-firmware
+Filename: pool/main/linux-image-server_2.6.27.7.11_i386.deb
+Size: 2812
+MD5sum: 8c3d00b1996339aa1c5c87a4d52957fa
+SHA1: 79b53258b6cfea23478bae8e9b21c75c91d6e245
+SHA256: 42e7b832f7eedc0be3cc2f8a3d6c341abe060a608bc3bf56d73c3f734cc26a8e
+Description: Linux kernel image on Server Equipment.
+ This package will always depend on the latest kernel image available
+ for Server Equipment.
+
 Package: libmcrypt4
 Priority: optional
 Section: libs
@@ -932,6 +1040,41 @@ SHA256: e3c3df45352289ae8250375585de2ee389ae2b5f04f7d0e31a9351102263231a
 Description: Utilities for BIND
  This package provides various utilities that are useful for maintaining a
  working BIND installation.
+
+Package: linux-image-2.6.27-7-server
+Priority: optional
+Section: base
+Installed-Size: 92288
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: i386
+Source: linux
+Version: 2.6.27-7.14
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, linux-image-2.6, ndiswrapper-modules-1.9, redhat-cluster-modules
+Depends: initramfs-tools (>= 0.36ubuntu6), coreutils | fileutils (>= 4.0), module-init-tools (>= 3.3-pre11-4ubuntu3)
+Pre-Depends: dpkg (>= 1.10.24)
+Recommends: lilo (>= 19.1) | grub
+Suggests: fdutils, linux-doc-2.6.27 | linux-source-2.6.27
+Conflicts: hotplug (<< 0.0.20040105-1)
+Filename: pool/main/linux-image-2.6.27-7-server_2.6.27-7.14_i386.deb
+Size: 23535646
+MD5sum: a1da0bd6ce7c38455e5eb3c8f1d18ecc
+SHA1: 48e6646326f7232e0a0861d7e8ef55160c164c7a
+SHA256: cad7199ac7660cd13efd581f1cd4b0345bc4a3f48eb58a22fc8d5cfbd24e9cde
+Description: Linux kernel image for version 2.6.27 on x86/x86_64
+ This package contains the Linux kernel image for version 2.6.27 on
+ x86/x86_64.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Server processors.
+ .
+ Geared toward server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-server meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
 
 Package: dovecot-common
 Priority: optional
