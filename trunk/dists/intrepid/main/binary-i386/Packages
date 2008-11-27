@@ -25,6 +25,23 @@ Description: versatile, virtual-hosting FTP daemon - MySQL module
  upload/download ratios are also supported.
 Homepage: http://www.proftpd.org/
 
+Package: libauthen-pam-perl
+Priority: optional
+Section: perl
+Installed-Size: 140
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Florian Ragwitz <rafl@debianforum.de>
+Architecture: i386
+Version: 0.16-1.1
+Depends: libc6 (>= 2.1.3), libpam0g (>= 0.99.7.1), perl (>= 5.10.0-9), perlapi-5.10.0
+Filename: pool/main/libauthen-pam-perl_0.16-1.1_i386.deb
+Size: 32978
+MD5sum: 74a2af3b57271a5849060ca88f27b831
+SHA1: 80ba24a98c288ed0bcc072f2c6e830d6dca7eddc
+SHA256: 2102f40633ee9ce7098a26abad8569b487f7b051b347473630b850ef50b515d1
+Description: Perl interface to PAM library
+ The Authen::PAM module provides a Perl interface to the PAM library.
+
 Package: proftpd
 Priority: optional
 Section: net
@@ -262,6 +279,32 @@ Description: versatile, virtual-hosting FTP daemon - LDAP module
  upload/download ratios are also supported.
 Homepage: http://www.proftpd.org/
 
+Package: nmap
+Priority: extra
+Section: net
+Installed-Size: 3644
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: i386
+Version: 4.62-1ubuntu1
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libpcap0.8 (>= 0.9.3-1), libpcre3 (>= 7.4), libssl0.9.8 (>= 0.9.8f-5), libstdc++6 (>= 4.2.1)
+Filename: pool/main/nmap_4.62-1ubuntu1_i386.deb
+Size: 1055758
+MD5sum: 35c5082c1ff365f17e81327d14db7cf6
+SHA1: 98c8c717c95fa181ffc50ff2c896b76966b30c0a
+SHA256: 29f2b194e21dfd1dbd6c95e263c95e40ae91b1a9f4059f58d6eff5fb6c862163
+Description: The Network Mapper
+ Nmap is a utility for network exploration or security auditing. It
+ supports ping scanning (determine which hosts are up), many port
+ scanning techniques, version detection (determine service protocols
+ and application versions listening behind ports), and TCP/IP
+ fingerprinting (remote host OS or device identification). Nmap also
+ offers flexible target and port specification, decoy/stealth scanning,
+ sunRPC scanning, and more. Most Unix and Windows platforms are
+ supported in both GUI and commandline modes. Several popular handheld
+ devices are also supported, including the Sharp Zaurus and the iPAQ.
+Python-Version: all
+
 Package: proftpd-mod-pgsql
 Priority: optional
 Section: net
@@ -377,6 +420,43 @@ Description: Internet Domain Name Server
  .
  This package provides the server and related configuration files.
 
+Package: libmd5-perl
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Jay Bonci <jaybonci@debian.org>
+Architecture: all
+Version: 2.03-1
+Depends: perl (>= 5.8.0-10)
+Filename: pool/main/libmd5-perl_2.03-1_all.deb
+Size: 5680
+MD5sum: f79dc40c0fb7f46ead04ecef9e674f39
+SHA1: 4199601a19056ece7d841f97ba21ee75bba54b34
+SHA256: da49dde58963489ce9bd776b7c27a4d04cdd0a27a10d3ec9a0a213e44950c113
+Description: backwards-compatible wrapper for Digest::MD5
+ This module (MD5.pm) is just a thin wrapper around the Digest::MD5
+ module.  It is provided so that legacy code that rely on the old
+ interface continue to work with the speed benefit of the new module.
+
+Package: libio-pty-perl
+Priority: optional
+Section: perl
+Installed-Size: 160
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Joergen Haegg <jh@debian.org>
+Architecture: i386
+Version: 1:1.07-1build1
+Provides: libio-tty-perl
+Depends: libc6 (>= 2.4), perl (>= 5.10.0-10), perlapi-5.10.0
+Filename: pool/main/libio-pty-perl_1%3a1.07-1build1_i386.deb
+Size: 40864
+MD5sum: f91439c4f1679c6b68ddaeb664c5771d
+SHA1: 6eb60caa188a418a8880e0eb4f2ebf1e939f7452
+SHA256: f4eba58ac234ba9d37e1e994fffb2ded8d642eadac2cfb549a2e09ce8695d6fe
+Description: Perl module for pseudo tty IO
+ IO::Pty provides I/O handles to the master- and slave-side of a
+ pseudo tty.
+
 Package: php5-mysql
 Priority: optional
 Section: web
@@ -434,6 +514,34 @@ Description: Common files for packages built from the php5 source
  generated pages quickly. This version of PHP5 was built with the Suhosin patch.
 Homepage: http://www.php.net/
 
+Package: mysql-server
+Priority: optional
+Section: misc
+Installed-Size: 88
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: all
+Source: mysql-dfsg-5.0
+Version: 5.0.67-0ubuntu6
+Depends: mysql-server-5.0
+Filename: pool/main/mysql-server_5.0.67-0ubuntu6_all.deb
+Size: 54908
+MD5sum: 6e1a7f79b6efe298db06c9d45a39a9b9
+SHA1: d182c6ed2acab039a2bd4ee9beb0fba3d10cb7c6
+SHA256: aec945a4852b137360cc53b21e4735c1fabbc869731cc9a2002dc063a107060c
+Description: MySQL database server (metapackage depending on the latest version)
+ This is an empty package that depends on the current "best" version
+ of mysql-server (currently mysql-server-5.0), as determined by the
+ MySQL maintainers. Install this package if in doubt about which MySQL
+ version you need. That will install the version recommended by the
+ package maintainers.
+ .
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+Homepage: http://dev.mysql.com/
+
 Package: libt1-5
 Priority: optional
 Section: libs
@@ -457,6 +565,30 @@ Description: Type 1 font rasterizer library - runtime
  user-defined slant and extension factors, and rotation.
  .
  This package contains the shared libraries needed to run programs using T1lib.
+
+Package: libnet-ssleay-perl
+Priority: optional
+Section: perl
+Installed-Size: 992
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Version: 1.35-1ubuntu1
+Depends: perl (>= 5.10.0-11.1ubuntu2), perlapi-5.10.0, libc6 (>= 2.4), libssl0.9.8 (>= 0.9.8f-5)
+Suggests: libmime-base64-perl
+Filename: pool/main/libnet-ssleay-perl_1.35-1ubuntu1_i386.deb
+Size: 204990
+MD5sum: 1c09d9818226630259699b3b9b34d4e8
+SHA1: ca30bee0c92ace6c2217ad32b781d967c16b0ae1
+SHA256: d14d7698f8bd397731fa973ee1314025f52145c0a94ad9f74750c407d535205b
+Description: Perl module for Secure Sockets Layer (SSL)
+ Net::SSLeay.pm is a perl module that allows you to call Secure Sockets
+ Layer (SSL) functions of the SSLeay library directly from your perl
+ scripts. It is useful if you want to program robots that access secure web
+ servers or if you want to build your own applications over SSL encrypted
+ tunnels. If you just want to view web pages on https servers, you do not
+ need this - your web browser already knows to do that.
+Homepage: http://search.cpan.org/dist/Net-SSLeay/
 
 Package: openssh-server
 Priority: optional
@@ -826,6 +958,34 @@ Description: secure mail server that supports mbox and maildir mailboxes
  .
  This package contains the files used by both the dovecot IMAP and POP3
  servers.
+
+Package: mysql-client
+Priority: optional
+Section: misc
+Installed-Size: 80
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: all
+Source: mysql-dfsg-5.0
+Version: 5.0.67-0ubuntu6
+Depends: mysql-client-5.0
+Filename: pool/main/mysql-client_5.0.67-0ubuntu6_all.deb
+Size: 52714
+MD5sum: cad5ab9e86128b0b180e05d3a40132bb
+SHA1: 5df5cf78a1130b2b156eefc4ca3b6c4f037ed0c6
+SHA256: c16a216f6bd89b4b4304ad0dc091c1a32f0a9e4ff7fc5ec315ab4bcc0c74ae14
+Description: MySQL database client (metapackage depending on the latest version)
+ This is an empty package that depends on the current "best" version of
+ mysql-client (currently mysql-client-5.0), as determined by the MySQL
+ maintainers. Install this package if in doubt about which MySQL
+ version you need. That will install the version recommended by the
+ package maintainers.
+ .
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+Homepage: http://dev.mysql.com/
 
 Package: libapr1
 Priority: optional
