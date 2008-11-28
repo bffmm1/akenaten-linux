@@ -42,6 +42,24 @@ SHA256: 2102f40633ee9ce7098a26abad8569b487f7b051b347473630b850ef50b515d1
 Description: Perl interface to PAM library
  The Authen::PAM module provides a Perl interface to the PAM library.
 
+Package: linux-firmware
+Priority: optional
+Section: misc
+Installed-Size: 7224
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Version: 1.2
+Replaces: atmel-firmware, linux-restricted-common
+Provides: atmel-firmware
+Conflicts: atmel-firmware
+Filename: pool/main/linux-firmware_1.2_all.deb
+Size: 3364870
+MD5sum: 45a04c3e5b70ad11e8dd6411d5e595b2
+SHA1: 69c17beffc8ef591f9ac49632b2285804d3ac653
+SHA256: e98b59254af48b30ebfe4a0aa7c8df673ef24e0c01aeda481ab61c8479b1f26b
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
+
 Package: proftpd
 Priority: optional
 Section: net
@@ -305,6 +323,35 @@ Description: The Network Mapper
  devices are also supported, including the Sharp Zaurus and the iPAQ.
 Python-Version: all
 
+Package: perl
+Priority: standard
+Section: perl
+Installed-Size: 13624
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Brendan O'Dea <bod@debian.org>
+Architecture: i386
+Version: 5.10.0-11.1ubuntu2
+Replaces: libarchive-tar-perl (<= 1.38-2), libdigest-md5-perl, libdigest-sha-perl, libmime-base64-perl, libmodule-corelist-perl (<< 2.14-2), libstorable-perl, libtime-hires-perl, libtime-piece-perl, perl-base (<< 5.8.8-1), perl-doc (<< 5.8.0-1), perl-modules (<< 5.8.1-1)
+Provides: data-dumper, libdigest-md5-perl, libdigest-sha-perl, libmime-base64-perl, libstorable-perl, libtime-hires-perl, libtime-piece-perl, perl5
+Depends: perl-base (= 5.10.0-11.1ubuntu2), perl-modules (>= 5.10.0-11.1ubuntu2), libc6 (>= 2.4), libdb4.6, libgdbm3
+Recommends: netbase
+Suggests: perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl
+Conflicts: libdigest-md5-perl (<< 3.07-1), libdigest-sha-perl (<< 5.45-1), libmime-base64-perl (<< 3.07-1), libstorable-perl (<< 2.15-1), libtime-hires-perl (<< 1.86-1), libtime-piece-perl (<< 1.12-1), perl-doc (<< 5.10.0-1)
+Filename: pool/main/perl_5.10.0-11.1ubuntu2_i386.deb
+Size: 4540302
+MD5sum: 1c89e336ddf703c418b55c9156f39d44
+SHA1: 680388c49b40496db59cbb24d7d2c102312a8c7e
+SHA256: a98b049abca28c6acc88d37101c9e1678af73eaf69fe39e9650a8add35055992
+Description: Larry Wall's Practical Extraction and Report Language
+ An interpreted scripting language, known among some as "Unix's Swiss
+ Army Chainsaw".
+ .
+ Perl is optimised for scanning arbitrary text files and system
+ administration.  It has built-in extended regular expression matching
+ and replacement, a data-flow mechanism to improve security with
+ setuid scripts and is extensible via modules that can interface to C
+ libraries.
+
 Package: proftpd-mod-pgsql
 Priority: optional
 Section: net
@@ -455,6 +502,34 @@ SHA256: 7b92dcfa4db13298fd7e92c9bb5a4360e49fb655711674177cf158e1f98a2426
 Description: Complete Linux kernel on Server Equipment.
  This package will always depend on the latest complete Linux kernel available
  for Server Equipment.
+
+Package: dhcp3-server
+Priority: optional
+Section: net
+Installed-Size: 852
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Andrew Pollock <apollock@debian.org>
+Architecture: i386
+Source: dhcp3
+Version: 3.1.1-1ubuntu2
+Depends: debianutils (>= 2.8.2), dhcp3-common (= 3.1.1-1ubuntu2), libc6 (>= 2.4), libcap1, debconf (>= 0.5) | debconf-2.0, lsb-base
+Conflicts: dhcp
+Filename: pool/main/dhcp3-server_3.1.1-1ubuntu2_i386.deb
+Size: 370278
+MD5sum: b139a84e343ba77d55d71b687b561e33
+SHA1: 7a6bb5d06797d597ae9cdefe065d9a829eef2ed5
+SHA256: 03d20ecc89d66505e649d0338495548a2df5b4732d2efa1aa7cd1266a75fbdd2
+Description: DHCP server for automatic IP address assignment
+ This is the server from version 3 of the Internet Software
+ Consortium's implementation of DHCP. For more information, visit
+ http://www.isc.org.
+ .
+ Dynamic Host Configuration Protocol (DHCP) is a protocol like BOOTP
+ (actually dhcpd includes much of the functionality of bootpd). It
+ gives client machines "leases" for IP addresses and can
+ automatically set their network configuration.
+ .
+ This server can handle multiple ethernet interfaces.
 
 Package: mdadm
 Priority: optional
@@ -743,6 +818,35 @@ Description: Internet object cache (WWW proxy cache) - common files
  This package contains common files (errors and icons)
 Homepage: http://www.squid-cache.org/
 
+Package: openssl
+Priority: optional
+Section: utils
+Installed-Size: 836
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 0.9.8g-10.1ubuntu2
+Depends: libc6 (>= 2.4), libssl0.9.8 (>= 0.9.8f-5), zlib1g (>= 1:1.1.4)
+Suggests: ca-certificates, openssl-doc
+Conflicts: ssleay (<< 0.9.2b)
+Filename: pool/main/openssl_0.9.8g-10.1ubuntu2_i386.deb
+Size: 399572
+MD5sum: 3d81d2b82f3ef8c2f7da92fd9492dc22
+SHA1: a1b04e6076be45768b9306ede7e47e2c37a4c5a8
+SHA256: b886b3069db69cdeaedd76133afa17d45a2eaebcc801460eddcf776124b09ed8
+Description: Secure Socket Layer (SSL) binary and related cryptographic tools
+ This package contains the openssl binary and related tools.
+ .
+ It is part of the OpenSSL implementation of SSL.
+ .
+ You need it to perform certain cryptographic actions like:
+  -  Creation of RSA, DH and DSA key parameters;
+  -  Creation of X.509 certificates, CSRs and CRLs;
+  -  Calculation of message digests;
+  -  Encryption and decryption with ciphers;
+  -  SSL/TLS client and server tests;
+  -  Handling of S/MIME signed or encrypted mail.
+
 Package: libmysqlclient15off
 Priority: optional
 Section: libs
@@ -854,6 +958,26 @@ Description: PostgreSQL C client library
  .
  PostgreSQL is an object-relational SQL database management system.
 
+Package: usermin-webmail
+Essential: no
+Priority: optional
+Section: admin
+Installed-Size: 24748
+Maintainer: Jamie Cameron <jcameron@webmin.com>
+Architecture: all
+Version: 1.370
+Replaces: usermin-at, usermin-changepass, usermin-chfn, usermin-commands, usermin-cron, usermin-cshrc, usermin-fetchmail, usermin-forward, usermin-gnupg, usermin-htaccess, usermin-htpasswd, usermin-mailbox, usermin-man, usermin-mysql, usermin-plan, usermin-postgresql, usermin-proc, usermin-procmail, usermin-quota, usermin-schedule, usermin-shell, usermin-spamassassin, usermin-ssh, usermin-tunnel, usermin-updown, usermin-usermount
+Provides: usermin
+Depends: bash, perl, libnet-ssleay-perl, openssl, libauthen-pam-perl, libpam-runtime, libio-pty-perl, libmd5-perl
+Pre-Depends: bash, perl
+Filename: pool/main/usermin-webmail_1.370_all.deb
+Size: 5823982
+MD5sum: 9bd0d436510e80eae075b6a4945e8ebe
+SHA1: fd9f0458f3a9a1f4767693c38c7f18537561afb4
+SHA256: ac2e810f8ac85edfe395669ba2355c7f1d362a09b3df92b634f4d9a3a7ce34ed
+Description: A web-based user account administration interface for Unix systems.
+	     After installation, enter the URL http://localhost:20000/ into your	     browser and login as any user on your system.
+
 Package: php5-gd
 Priority: optional
 Section: web
@@ -948,6 +1072,29 @@ Description: MySQL web administration tool
   - support mysqli, the improved MySQL extension;
  and is fully internationalized and localized in dozens of languages.
 Homepage: http://www.phpmyadmin.net/
+
+Package: libpam-runtime
+Priority: required
+Section: admin
+Installed-Size: 1016
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Steve Langasek <vorlon@debian.org>
+Architecture: all
+Source: pam
+Version: 1.0.1-4ubuntu5.3
+Replaces: libpam0g-dev, libpam0g-util
+Depends: debconf (>= 0.5) | debconf-2.0
+Conflicts: libpam0g (<< 0.66-0), libpam0g-util
+Filename: pool/main/libpam-runtime_1.0.1-4ubuntu5.3_all.deb
+Size: 88650
+MD5sum: 67ae72818bd63c5f5b7cbf94c3d53d9b
+SHA1: 5313b336a529730f5b8b5ce5e6da26221dd322e0
+SHA256: 07e5140f5ea189d4a4fe0c8c410a5f12e97b64273acaf69fa1b5f7e62e788498
+Description: Runtime support for the PAM library
+ Contains configuration files and  directories required for
+ authentication  to work on Debian systems.  This package is required
+ on almost all installations.
+Homepage: http://pam.sourceforge.net/
 
 Package: linux-image-server
 Priority: optional
@@ -1101,6 +1248,26 @@ Description: secure mail server that supports mbox and maildir mailboxes
  .
  This package contains the files used by both the dovecot IMAP and POP3
  servers.
+
+Package: usermin
+Essential: no
+Priority: optional
+Section: admin
+Installed-Size: 25336
+Maintainer: Jamie Cameron <jcameron@webmin.com>
+Architecture: all
+Version: 1.370
+Replaces: usermin-at, usermin-changepass, usermin-chfn, usermin-commands, usermin-cron, usermin-cshrc, usermin-fetchmail, usermin-forward, usermin-gnupg, usermin-htaccess, usermin-htpasswd, usermin-mailbox, usermin-man, usermin-mysql, usermin-plan, usermin-postgresql, usermin-proc, usermin-procmail, usermin-quota, usermin-schedule, usermin-shell, usermin-spamassassin, usermin-ssh, usermin-tunnel, usermin-updown, usermin-usermount
+Provides: usermin
+Depends: bash, perl, libnet-ssleay-perl, openssl, libauthen-pam-perl, libpam-runtime, libio-pty-perl, libmd5-perl
+Pre-Depends: bash, perl
+Filename: pool/main/usermin_1.370_all.deb
+Size: 5755390
+MD5sum: 45727f988c2476c266253f73290b4781
+SHA1: 88ebb4d2e591355edcc6e32b9d49bbc3b6d553df
+SHA256: dd60e3e182bdcbd152d8793dcdab9049fd0a881ab15d4f09106fc76148037b0f
+Description: A web-based user account administration interface for Unix systems.
+	     After installation, enter the URL http://localhost:20000/ into your	     browser and login as any user on your system.
 
 Package: mysql-client
 Priority: optional
