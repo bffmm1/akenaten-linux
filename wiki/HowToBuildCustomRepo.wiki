@@ -1,2 +1,2 @@
-#summary One-sentence summary of this page.
+#summary How to create custom ubuntu repository on www server, CD/DVD, USB Thumbdrive and another media.
 #labels Phase-Implementation,Phase-Deploy
