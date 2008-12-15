@@ -45,20 +45,20 @@ clean:
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k 
+	dh_prep  
 	dh_installdirs
 
 	# Add here commands to install the package into debian/ubuntuclub-repository.
 	#$(MAKE) DESTDIR=$(CURDIR)/debian/ubuntuclub-repository install
-	cp  $(CURDIR)/sources.list.ubuntuclub $(CURDIR)/debian/ubuntuclub-repository/etc/apt/sources.list.d/ubuntuclub.list
+	cp $(CURDIR)/ubuntuclub.list $(CURDIR)/debian/ubuntuclub-repository/tmp
 
 
 # Build architecture-independent files here.
-binary-indep: build install
+binary-indep: install
 # We have nothing to do by default.
 
 # Build architecture-dependent files here.
-binary-arch: build install
+binary-arch: install
 	dh_testdir
 	dh_testroot
 	dh_installchangelogs 
@@ -66,7 +66,7 @@ binary-arch: build install
 	dh_installexamples
 #	dh_install
 #	dh_installmenu
-#	dh_installdebconf	
+#	dh_installdebconf
 #	dh_installlogrotate
 #	dh_installemacsen
 #	dh_installpam

@@ -1,0 +1,12 @@
+Source: ubuntuclub-repository
+Section: unknown
+Priority: extra
+Maintainer: Anuchit Chalothorn <anoochit@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.0
+Homepage: http://www.thaiopensource.org/ubuntu
+
+Package: ubuntuclub-repository
+Architecture: any
+Description:  custom repository from ubuntu club - Ubuntu Community in Thailand
+  custom repository from ubuntu club - Ubuntu Community in Thailand
