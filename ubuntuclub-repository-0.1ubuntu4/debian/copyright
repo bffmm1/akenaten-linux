@@ -1,5 +1,5 @@
-This package was debianized by akenaten <akenaten@akenaten-desktop> on
-Tue, 04 Nov 2008 09:48:23 +0700.
+This package was debianized by root <root@akenaten-desktop> on
+Mon, 15 Dec 2008 14:53:59 +0700.
 
 It was downloaded from <url://example.com>
 
@@ -17,7 +17,7 @@ License:
 
     <Put the license of the package here indented by 4 spaces>
 
-The Debian packaging is (C) 2008, akenaten <akenaten@akenaten-desktop> and
+The Debian packaging is copyright 2008, root <root@akenaten-desktop> and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
 
 # Please also look if there are files or directories which have a
