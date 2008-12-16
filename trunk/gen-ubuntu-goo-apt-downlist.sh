@@ -7,14 +7,16 @@ done
 #echo "mount proc and sys"
 #mount /proc
 #mount /sys
+export HOME=/
+export LC_ALL=C
 echo "update package"
 apt-get update
 locale-gen en_US.UTF-8
 echo "apt standard package"
-apt-get install ubuntu-standard casper locales console-data ubiquity
-apt-get install discover laptop-detect os-prober rcconf
-apt-get install $xpack
-apt-get install linux-generic
+apt-get -y install ubuntu-standard casper locales console-data ubiquity
+apt-get -y install discover laptop-detect os-prober rcconf
+apt-get -y install $xpack
+apt-get -y install linux-generic
 echo "clean"
 #apt-get clean
 #rm -rf /tmp/*
