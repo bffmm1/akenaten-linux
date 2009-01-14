@@ -8,6 +8,8 @@ This is trunk of development project, include generate script :
 * gen-ubuntu-goo-apt-standard.sh - install ubuntu-standard package, for initial ubuntu with cli.
 * gen-ubuntu-goo-apt-downlist.sh - install any packages that listed in package.list file.
 * gen-ubuntu-goo-apt-image.sh - create sqfs image and pack it into .iso file.
+* gen-ubuntu-goo-mount.sh - mount bind to proc/sys/dev
+* gen-ubuntu-goo-umount.sh - umount with force proc/sys/dev
 
 how-to generate you own linux distribution
 -------------------------------------------
@@ -21,9 +23,7 @@ how-to generate you own linux distribution
 
 3.2 the script will notice you to mount machine /proc, /sys and /dev for make the virtual machine for LSB after chroot. Now let's mount it.
 
-# mount --bind /proc chroot/proc
-# mount --bind /dev chroot/dev
-# mount --bind /sys chroot/sys
+# ./gen-ubuntu-goo-umount.sh
 
 3.3 After mount then change root to our LSB.
 
@@ -35,9 +35,7 @@ you are lazy like me use the script "gen-ubuntu-goo-apt-downlist.sh" to install 
 
 4. After install any packages what you want, then exit from chroot and unmout chroot/proc chroot/sys chroot/dev 
 
-# umount -l -f chroot/proc
-# umount -l -f chroot/dev
-# umount -l -f chroot/sys
+# ./gen-ubuntu-goo-umount.sh
 
 5. Then let's create .iso file :) by run the script  "gen-ubutnu-goo-image.sh".
 
