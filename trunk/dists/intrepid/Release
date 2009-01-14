@@ -1,22 +1,22 @@
 Architectures: i386
 Codename: intrepid
 Components: main
-Date: Wed, 17 Dec 2008 00:51:53 UTC
+Date: Wed, 14 Jan 2009 13:08:32 UTC
 Label: Thai Open Source Ubuntu Repository
 Origin: thaiopensource.org
 Suite: intrepid
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e                0 Release
- 7ecc0121f1dced88e05b65b73c3f24a0            62886 main/binary-i386/Packages
- f916482f9b37e4f45b850f4a14454d43            17432 main/binary-i386/Packages.bz2
- fc38c8c698d6e1176530bab8c4a74e8d            19204 main/binary-i386/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 main/binary-i386/Packages.bz2
+ 4a4dd3598707603b3f76a2378a4504aa               20 main/binary-i386/Packages.gz
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
- ef5f6b4b84e6e4c4fb69d7435e5054e64bc48c3f            62886 main/binary-i386/Packages
- 2ac2dac29042cfd43b5c8837581b2033f919f521            17432 main/binary-i386/Packages.bz2
- 09824422780b11376b6613a80ddae790c8bdf8c9            19204 main/binary-i386/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 main/binary-i386/Packages.bz2
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed               20 main/binary-i386/Packages.gz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
- c1869e78fc8a940d23146bb69dd4c649f851ebceb23f2e029ad0a1ce74eb6e8d            62886 main/binary-i386/Packages
- ce136f830813a611e4992b5344ed3b79dce80a3a35fb7492579acd913c2bf07c            17432 main/binary-i386/Packages.bz2
- 4cffb8c7e8a88080772e08bbf6b38398bad8f8fe9d533dbca3322f18986a74b9            19204 main/binary-i386/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 main/binary-i386/Packages.bz2
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec               20 main/binary-i386/Packages.gz
