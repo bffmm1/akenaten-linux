@@ -1,5 +1,4 @@
 #!/bin/sh
-GENHOME=/home/akenaten/akbuild
 echo "=== gen Ubuntu Goo Script ==="
 echo "1. make chroot"
 mkdir chroot
@@ -12,8 +11,7 @@ cp sources.list chroot/etc/apt/sources.list
 echo "5. copy gen script"
 cp gen-ubuntu-goo-apt*.sh chroot/tmp/
 cp package.list chroot/tmp/
-echo "6. don't forget mount --bind proc, sys, dev ";
-echo "7. now chroot"
-#chroot $GENHOME"/chroot"
+echo "6. run ./gen-ubuntu-goo-mount.sh ";
+echo "7. then chroot!"
 
 
